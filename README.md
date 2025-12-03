@@ -42,3 +42,13 @@ Here's a brief description of every column:
 - `explicit` might be interesting, but it's not a musical attribute.
 - `track_genre` is externally assigned, very subjective.
 
+#### Next operations
+- Removing duplicates
+- Data type conversion
+- Normalization/Scaling
+- Encoding Categorical Data
+- Outliers handling
+- Feature selection / Dimensionality reduction
+- Data Transformation
+- Splitting data: train/test/\[validation\]
+- Consistency check

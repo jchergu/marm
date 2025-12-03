@@ -4,7 +4,10 @@
 
 ## Structure
 ### Preprocessing
-After loading and checking the dataset, we should ask which columns are not useful, or need to be normalized. Here's a brief description of every column:
+After loading and checking the dataset, we should ask which columns are not useful, or need to be normalized.  
+
+#### Columns
+Here's a brief description of every column:
 
 - `track_id`: unique ID in hex.
 - `artists`: artists name (separated with ';' if there are many).
@@ -27,3 +30,15 @@ After loading and checking the dataset, we should ask which columns are not usef
 - `tempo`: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration
 - `time_signature`: An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of 3/4, to 7/4.
 - `track_genre`: The genre in which the track belongs
+
+
+#### Which columns to remove?
+- There is a first column before `track_id` to index every row (0, 1, 2 ...).
+- `track_id`: pure unique identifier.
+- `track_name`
+- `album_name`
+- `artists`
+- `popularity` is driven by algorithms, recency and marketing, it's not a music feature.
+- `explicit` might be interesting, but it's not a musical attribute.
+- `track_genre` is externally assigned, very subjective.
+

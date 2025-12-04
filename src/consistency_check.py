@@ -1,4 +1,4 @@
-from dataset_loader import load_dataset
+from .dataset_loader import load_dataset
 import pandas as pd
 
 df = load_dataset()
@@ -49,5 +49,3 @@ def check_consistency(df):
                     print(f"  max:  {series.max()}")
                 except Exception:
                     print("  min/max not available for this column")
-
-check_consistency(df)

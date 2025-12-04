@@ -19,10 +19,7 @@ def check_consistency(df):
     df.info()
 
     # columns to exclude from analysis
-    exclude = {"track_id", "artists", "album_name", "track_name", "explicit", "track_genre"}
-    # also exclude the first column
-    if len(df.columns) > 0:
-        exclude.add(df.columns[0])
+    exclude = {df.columns[0], "track_id", "artists", "album_name", "track_name", "explicit", "track_genre", "popularity"}
 
     for col in df.columns:
         if col in exclude:

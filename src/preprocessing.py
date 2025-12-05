@@ -62,11 +62,14 @@ def preprocess(
     X_train, X_test, X_val (if requested), feature_names
     """
 
+    print("\n[preprocessing] starting...")
+
     df = df.copy()
 
     # remove first column (index column present before track_id)
     if df.shape[1] > 0:
         df = df.iloc[:, 1:]
+    print("[preprocessing] removed first index column")
 
     # drop the specified metadata columns if present
     df = df.drop(columns=[c for c in DROP_COLS if c in df.columns], errors="ignore")
@@ -77,6 +80,7 @@ def preprocess(
     # try to infer numeric columns by coercion
     df = df.convert_dtypes()
     df, inferred_numeric = _infer_numeric_columns(df)
+    print("[preprocessing] infer numeric column")
 
     # identify columns
     duration_col = "duration_ms" if "duration_ms" in df.columns else None
@@ -90,6 +94,7 @@ def preprocess(
     # handle outliers by winsorization (keeps rows)
     if winsorize_outliers and numeric_cols:
         df = _winsorize(df, numeric_cols, factor=outlier_factor)
+    print("[preprocessing] outlier handling")
 
     # define transformers
     transformers = []
@@ -118,6 +123,8 @@ def preprocess(
 
     X = ct.fit_transform(df)
 
+    print("[preprocessing] normalization")
+
     # feature names
     try:
         feature_names = ct.get_feature_names_out()
@@ -135,6 +142,8 @@ def preprocess(
         X_df = pd.DataFrame(X_reduced, columns=comp_names, index=df.index)
         feature_names = comp_names
 
+    print("[preprocessing] train/test/val splitting...")
+
     # train/test(/val) split
     if val_size:
         # split into train+val and test, then split train into train/val
@@ -144,6 +153,8 @@ def preprocess(
     else:
         X_train, X_test = train_test_split(X_df, test_size=test_size, random_state=random_state)
         X_val = None
+
+    print("[preprocessing] done\n")
 
     return {
         "transformer": ct,

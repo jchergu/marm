@@ -15,6 +15,8 @@ def _fmt_num(x):
         return str(x)
 
 def check_consistency(df):
+    print("\n[consistency check] starting...")
+
     print(df.head())
     df.info()
 
@@ -46,3 +48,5 @@ def check_consistency(df):
                     print(f"  max:  {series.max()}")
                 except Exception:
                     print("  min/max not available for this column")
+
+    print("\n[consistency check] done")

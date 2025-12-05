@@ -12,15 +12,10 @@ def main():
     except FileNotFoundError:
         print(f"header file not found: {header_path}")
 
-    print("[load dataset] starting...")
     df = load_dataset()
-    print(f"[load dataset] done: {df.shape}")
 
-    print("\n[consistency check] starting...")
     check_consistency(df)
-    print("\n[consistency check] done")
 
-    print("\n[preprocessing] starting...")
     res = preprocess(
         df,
         remove_duplicates=True,
@@ -31,7 +26,6 @@ def main():
         val_size=None,
         random_state=42,
     )
-    print("\n[preprocessing] done")
 
     X = res["X"]
     X_train = res["X_train"]

@@ -52,3 +52,16 @@ Here's a brief description of every column:
 - Data Transformation
 - Splitting data: train/test/\[validation\]
 - Consistency check
+
+#### Data dicretization
+To perform Association Rule Mining, we need to discretize our data to apply A-Priori or FP-Growth algorithm.  
+After loading the dataset, data are prepared for ARM by converting each song's feature into discrete, human-readable categories (*e.g. low, high ecc.*). This is necessary because A-Priori and FP-Growth work on sets of items, not continuous numbers.  
+
+How the function works:
+1. Identify categorical vs numerical columns
+2. Discretize numeric values using quantile bins. For example: `n = 4 => [very_low, low, high, very_high]`
+3. One-hot encode of discrete values: every category becomes binary (1=present, 0=absent)
+4. Generate a list of itemsets (transactions): for each row, all items with value=1 are collected
+5. Save two files: `/data/arm_onehot.csv` and `/data/arm_transactions.txt`
+
+

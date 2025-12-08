@@ -1,7 +1,6 @@
 from .dataset_loader import load_dataset
 import pandas as pd
 
-df = load_dataset()
 
 def _fmt_num(x):
     try:

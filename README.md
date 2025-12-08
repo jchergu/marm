@@ -64,4 +64,21 @@ How the function works:
 4. Generate a list of itemsets (transactions): for each row, all items with value=1 are collected
 5. Save two files: `/data/arm_onehot.csv` and `/data/arm_transactions.txt`
 
+### Rule Mining
+#### Which algorithm is best: A-Priori or FP-Growth?
+In almost every real scenario, FP-Growth is best:
+- No candidate generation: Apriori keeps generating bigger and bigger combinations, and this slows down the computation time, while FP-Growth build a compressed FP-tree so skips all the heavy combinatorics.  
+- Faster: especially when there are many items, a lot of rows, and the dataset is not tiny.
+- More scalable: when items increase, apriori chokes while fp-growth handles large datasets.
+- Better for production: faster run for microservices applications.
 
+#### The FP-Growth algorithm
+Instead of generating millions of candidate items like apriori algorithm, fpgrowth compresses the dataset into a compact tree structure (FP-Tree) and then extracts frequent patterns directly from the tree, without brute force.
+
+Steps:
+1. Count items and remove garbage: scanning the dataset, find out how many times an item appears, throws out items below `min_support` and sorts items by frequency
+2. FP-Tree building: the most an item is frequent, the more is close to the root. Thanks to this, information is compressed, this saves a ton of memory and computation.  
+3. Mine the tree bottom-up: for each frequent item:  
+- Collect all paths that lead to that item ("Conditional Pattern Base")
+- Build a conditional FP-Tree just for the item
+- Recursively extracts patterns 

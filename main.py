@@ -3,6 +3,7 @@ from src.consistency_check import check_consistency
 from src.preprocessing import preprocess
 from src.header_print import print_header
 from src.discretization import create_arm_dataset
+from src.fpg import apply_fpgrowth
 from pathlib import Path
 
 def main():
@@ -41,6 +42,16 @@ def main():
     if paths:
         print(f"[main] Wrote one-hot CSV: {paths.get('onehot_csv')}")
         print(f"[main] Wrote transactions TXT: {paths.get('transactions_txt')}")
+
+    # run FP-growth on the generated transactions and persist results
+    try:
+        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=0.02, min_confidence=0.5)
+        print(f"[main] FP-growth results written:")
+        print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
+        print(f"  rules: {fpg_paths.get('rules')}")
+        print(f"  meta: {fpg_paths.get('meta')}")
+    except Exception as e:
+        print(f"[main] FP-growth failed: {e}")    
 
 if __name__ == "__main__":
     main()

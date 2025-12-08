@@ -1,0 +1,26 @@
+support,itemsets,support_count,itemset_str
+1.0,frozenset({'time_signature_4'}),83479,time_signature_4
+0.6337522011523856,frozenset({'mode_1'}),52905,mode_1
+0.6337522011523856,"frozenset({'mode_1', 'time_signature_4'})",52905,mode_1|time_signature_4
+0.5069059284370919,"frozenset({'key_low', 'time_signature_4'})",42316,key_low|time_signature_4
+0.5069059284370919,frozenset({'key_low'}),42316,key_low
+0.5020783670144587,frozenset({'liveness_low'}),41913,liveness_low
+0.5020783670144587,"frozenset({'liveness_low', 'time_signature_4'})",41913,liveness_low|time_signature_4
+0.5008445237724458,"frozenset({'valence_low', 'time_signature_4'})",41810,time_signature_4|valence_low
+0.5008445237724458,frozenset({'valence_low'}),41810,valence_low
+0.5007247331664251,"frozenset({'acousticness_low', 'time_signature_4'})",41800,acousticness_low|time_signature_4
+0.5007247331664251,frozenset({'acousticness_low'}),41800,acousticness_low
+0.5001976544999341,frozenset({'danceability_low'}),41756,danceability_low
+0.5001976544999341,"frozenset({'danceability_low', 'time_signature_4'})",41756,danceability_low|time_signature_4
+0.5001257801363217,"frozenset({'loudness_low', 'time_signature_4'})",41750,loudness_low|time_signature_4
+0.5001257801363217,frozenset({'loudness_low'}),41750,loudness_low
+0.5001138010757197,frozenset({'speechiness_low'}),41749,speechiness_low
+0.5001138010757197,"frozenset({'speechiness_low', 'time_signature_4'})",41749,speechiness_low|time_signature_4
+0.5000539057727093,frozenset({'instrumentalness_low'}),41744,instrumentalness_low
+0.5000539057727093,"frozenset({'instrumentalness_low', 'time_signature_4'})",41744,instrumentalness_low|time_signature_4
+0.5000179685909031,"frozenset({'energy_low', 'time_signature_4'})",41741,energy_low|time_signature_4
+0.5000179685909031,frozenset({'energy_low'}),41741,energy_low
+0.5000059895303011,frozenset({'tempo_low'}),41740,tempo_low
+0.5000059895303011,frozenset({'duration_ms_low'}),41740,duration_ms_low
+0.5000059895303011,"frozenset({'tempo_low', 'time_signature_4'})",41740,tempo_low|time_signature_4
+0.5000059895303011,"frozenset({'duration_ms_low', 'time_signature_4'})",41740,duration_ms_low|time_signature_4

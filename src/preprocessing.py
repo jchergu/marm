@@ -6,6 +6,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer, OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
+from .outlier_detection import winsorize_df
 
 DROP_COLS = {"track_id", "track_name", "album_name", "artists", "popularity", "explicit", "track_genre"}
 
@@ -19,21 +20,6 @@ def _infer_numeric_columns(df):
             df[c] = coerced
             nums.append(c)
     return df, nums
-
-
-def _winsorize(df, numeric_cols, factor=1.5):
-    # clip values to [Q1 - factor*IQR, Q3 + factor*IQR] per column
-    for c in numeric_cols:
-        col = df[c].dropna()
-        if col.empty:
-            continue
-        q1 = col.quantile(0.25)
-        q3 = col.quantile(0.75)
-        iqr = q3 - q1
-        lower = q1 - factor * iqr
-        upper = q3 + factor * iqr
-        df[c] = df[c].clip(lower=lower, upper=upper)
-    return df
 
 
 def preprocess(
@@ -91,9 +77,9 @@ def preprocess(
     # categorical columns are the rest
     categorical_cols = [c for c in df.columns if c not in numeric_cols and c != duration_col]
 
-    # handle outliers by winsorization (keeps rows)
+    # handle outliers by winsorization (keeps rows) using dedicated module
     if winsorize_outliers and numeric_cols:
-        df = _winsorize(df, numeric_cols, factor=outlier_factor)
+        df = winsorize_df(df, numeric_cols, factor=outlier_factor)
     print("[preprocessing] outlier handling")
 
     # define transformers

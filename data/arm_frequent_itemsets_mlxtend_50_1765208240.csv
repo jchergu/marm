@@ -1,0 +1,1094 @@
+support,itemsets,support_count,itemset_str
+0.6337522011523856,frozenset({'mode_1'}),52905,mode_1
+0.5000539057727093,frozenset({'instrumentalness_low'}),41744,instrumentalness_low
+0.3662477988476144,frozenset({'mode_0'}),30574,mode_0
+0.3347788066459828,"frozenset({'mode_1', 'instrumentalness_low'})",27947,instrumentalness_low|mode_1
+0.31480971262233615,frozenset({'key_very_low'}),26280,key_very_low
+0.25168006324944,frozenset({'liveness_low'}),21010,liveness_low
+0.2516321470070317,frozenset({'danceability_very_low'}),21006,danceability_very_low
+0.2513805867343883,frozenset({'energy_high'}),20985,energy_high
+0.2507217384012746,frozenset({'valence_very_low'}),20930,valence_very_low
+0.25050611531043737,frozenset({'energy_very_low'}),20912,energy_very_low
+0.2504581990680291,frozenset({'acousticness_very_low'}),20908,acousticness_very_low
+0.2504342409468249,frozenset({'speechiness_very_low'}),20906,speechiness_very_low
+0.2504222618862229,frozenset({'danceability_high'}),20905,danceability_high
+0.25039830376501876,frozenset({'liveness_very_low'}),20903,liveness_very_low
+0.250266534098396,frozenset({'acousticness_low'}),20892,acousticness_low
+0.2501467434923753,frozenset({'instrumentalness_medium'}),20882,instrumentalness_medium
+0.2501227853711712,frozenset({'loudness_low'}),20880,loudness_low
+0.2501227853711712,frozenset({'valence_low'}),20880,valence_low
+0.2500149738257526,frozenset({'tempo_very_low'}),20871,tempo_very_low
+0.25000299476515053,frozenset({'duration_ms_low'}),20870,duration_ms_low
+0.25000299476515053,frozenset({'duration_ms_very_low'}),20870,duration_ms_very_low
+0.25000299476515053,frozenset({'tempo_high'}),20870,tempo_high
+0.25000299476515053,frozenset({'duration_ms_very_high'}),20870,duration_ms_very_high
+0.25000299476515053,frozenset({'loudness_very_low'}),20870,loudness_very_low
+0.24999101570454846,frozenset({'tempo_low'}),20869,tempo_low
+0.24999101570454846,frozenset({'duration_ms_high'}),20869,duration_ms_high
+0.24999101570454846,frozenset({'tempo_very_high'}),20869,tempo_very_high
+0.2499670575833443,frozenset({'speechiness_high'}),20867,speechiness_high
+0.2499430994621402,frozenset({'loudness_very_high'}),20865,loudness_very_high
+0.24993112040153811,frozenset({'loudness_high'}),20864,loudness_high
+0.24991914134093604,frozenset({'speechiness_very_high'}),20863,speechiness_very_high
+0.24983528791672158,frozenset({'valence_very_high'}),20856,valence_very_high
+0.24979935073491535,frozenset({'instrumentalness_high'}),20853,instrumentalness_high
+0.24975143449250709,frozenset({'acousticness_very_high'}),20849,acousticness_very_high
+0.2496795601288947,frozenset({'speechiness_low'}),20843,speechiness_low
+0.2496795601288947,frozenset({'liveness_very_high'}),20843,liveness_very_high
+0.2495238323410678,frozenset({'acousticness_high'}),20830,acousticness_high
+0.24951185328046574,frozenset({'energy_low'}),20829,energy_low
+0.249380083613843,frozenset({'danceability_very_high'}),20818,danceability_very_high
+0.24932018831083266,frozenset({'valence_high'}),20813,valence_high
+0.2486014446747086,frozenset({'energy_very_high'}),20753,energy_very_high
+0.2485655074929024,frozenset({'danceability_low'}),20750,danceability_low
+0.2482420728566466,frozenset({'liveness_high'}),20723,liveness_high
+0.2474514548569101,frozenset({'key_high'}),20657,key_high
+0.2456426167059979,frozenset({'key_very_high'}),20506,key_very_high
+0.23384324201296133,"frozenset({'key_very_low', 'mode_1'})",19521,key_very_low|mode_1
+0.1920962158147558,frozenset({'key_low'}),16036,key_low
+0.17972184621282,"frozenset({'speechiness_very_low', 'mode_1'})",15003,mode_1|speechiness_very_low
+0.17769738497107057,"frozenset({'energy_very_low', 'loudness_very_low'})",14834,energy_very_low|loudness_very_low
+0.17666718575929274,"frozenset({'acousticness_very_high', 'energy_very_low'})",14748,acousticness_very_high|energy_very_low
+0.17489428479018676,"frozenset({'acousticness_very_high', 'mode_1'})",14600,acousticness_very_high|mode_1
+0.17381616933600066,"frozenset({'mode_1', 'energy_very_low'})",14510,energy_very_low|mode_1
+0.16980318403430802,"frozenset({'key_high', 'mode_1'})",14175,key_high|mode_1
+0.1667485235807808,"frozenset({'mode_1', 'danceability_very_low'})",13920,danceability_very_low|mode_1
+0.16632925645970842,"frozenset({'mode_1', 'duration_ms_very_low'})",13885,duration_ms_very_low|mode_1
+0.1658620730962278,"frozenset({'acousticness_high', 'instrumentalness_low'})",13846,acousticness_high|instrumentalness_low
+0.16527509912672647,"frozenset({'mode_0', 'instrumentalness_low'})",13797,instrumentalness_low|mode_0
+0.16527509912672647,"frozenset({'mode_1', 'loudness_very_low'})",13797,loudness_very_low|mode_1
+0.16430479521795902,"frozenset({'danceability_low', 'mode_1'})",13716,danceability_low|mode_1
+0.16291522418811916,"frozenset({'valence_very_high', 'mode_1'})",13600,mode_1|valence_very_high
+0.16204075276416824,"frozenset({'mode_1', 'liveness_low'})",13527,liveness_low|mode_1
+0.1610944069766049,"frozenset({'tempo_very_low', 'mode_1'})",13448,mode_1|tempo_very_low
+0.16077097234034907,"frozenset({'mode_1', 'tempo_very_high'})",13421,mode_1|tempo_very_high
+0.16014806118904157,"frozenset({'liveness_very_high', 'mode_1'})",13369,liveness_very_high|mode_1
+0.15966889876495885,"frozenset({'valence_low', 'mode_1'})",13329,mode_1|valence_low
+0.1595011919165299,"frozenset({'key_very_low', 'instrumentalness_low'})",13315,instrumentalness_low|key_very_low
+0.15924963164388647,"frozenset({'loudness_low', 'mode_1'})",13294,loudness_low|mode_1
+0.15872255297739551,"frozenset({'acousticness_high', 'mode_1'})",13250,acousticness_high|mode_1
+0.15855484612896656,"frozenset({'mode_1', 'duration_ms_high'})",13236,duration_ms_high|mode_1
+0.15833922303812936,"frozenset({'danceability_high', 'mode_1'})",13218,danceability_high|mode_1
+0.15781214437163837,"frozenset({'mode_1', 'speechiness_low'})",13174,mode_1|speechiness_low
+0.1577282909474239,"frozenset({'duration_ms_low', 'mode_1'})",13167,duration_ms_low|mode_1
+0.15746475161417842,"frozenset({'mode_1', 'liveness_high'})",13145,liveness_high|mode_1
+0.15718923322033085,"frozenset({'energy_low', 'mode_1'})",13122,energy_low|mode_1
+0.15659028019022747,"frozenset({'valence_very_high', 'instrumentalness_low'})",13072,instrumentalness_low|valence_very_high
+0.15649444770541093,"frozenset({'mode_1', 'tempo_low'})",13064,mode_1|tempo_low
+0.15605122246313444,"frozenset({'valence_high', 'mode_1'})",13027,mode_1|valence_high
+0.15545226943303106,"frozenset({'loudness_high', 'mode_1'})",12977,loudness_high|mode_1
+0.15539237413002072,"frozenset({'tempo_high', 'mode_1'})",12972,mode_1|tempo_high
+0.15511685573617318,"frozenset({'mode_1', 'valence_very_low'})",12949,mode_1|valence_very_low
+0.15409863558499742,"frozenset({'liveness_very_low', 'mode_1'})",12864,liveness_very_low|mode_1
+0.15377520094874159,"frozenset({'mode_1', 'loudness_very_high'})",12837,loudness_very_high|mode_1
+0.1528887504641886,"frozenset({'instrumentalness_medium', 'mode_1'})",12763,instrumentalness_medium|mode_1
+0.15165490722217564,"frozenset({'energy_very_high', 'mode_1'})",12660,energy_very_high|mode_1
+0.15158303285856323,"frozenset({'energy_very_high', 'loudness_very_high'})",12654,energy_very_high|loudness_very_high
+0.15113980761628673,"frozenset({'duration_ms_very_high', 'mode_1'})",12617,duration_ms_very_high|mode_1
+0.15109189137387846,"frozenset({'energy_high', 'mode_1'})",12613,energy_high|mode_1
+0.15069658237401024,"frozenset({'acousticness_very_high', 'loudness_very_low'})",12580,acousticness_very_high|loudness_very_low
+0.15031325243474405,"frozenset({'acousticness_very_low', 'mode_1'})",12548,acousticness_very_low|mode_1
+0.1498221109500593,"frozenset({'mode_1', 'acousticness_low'})",12507,acousticness_low|mode_1
+0.14971429940464068,"frozenset({'speechiness_high', 'mode_1'})",12498,mode_1|speechiness_high
+0.14954659255621175,"frozenset({'instrumentalness_low', 'loudness_very_high'})",12484,instrumentalness_low|loudness_very_high
+0.1493070113441704,"frozenset({'duration_ms_low', 'instrumentalness_low'})",12464,duration_ms_low|instrumentalness_low
+0.14820493776878016,"frozenset({'valence_high', 'instrumentalness_low'})",12372,instrumentalness_low|valence_high
+0.1479413984355347,"frozenset({'energy_low', 'instrumentalness_low'})",12350,energy_low|instrumentalness_low
+0.1469471364055631,"frozenset({'acousticness_very_low', 'energy_very_high'})",12267,acousticness_very_low|energy_very_high
+0.14650391116328657,"frozenset({'mode_1', 'speechiness_very_high'})",12230,mode_1|speechiness_very_high
+0.14616849746642868,"frozenset({'loudness_high', 'instrumentalness_low'})",12202,instrumentalness_low|loudness_high
+0.14614453934522456,"frozenset({'energy_high', 'instrumentalness_low'})",12200,energy_high|instrumentalness_low
+0.14608464404221422,"frozenset({'instrumentalness_high', 'mode_1'})",12195,instrumentalness_high|mode_1
+0.14573725128475426,"frozenset({'speechiness_very_high', 'instrumentalness_low'})",12166,instrumentalness_low|speechiness_very_high
+0.14435965931551648,"frozenset({'mode_1', 'danceability_very_high'})",12051,danceability_very_high|mode_1
+0.14415601528528132,"frozenset({'acousticness_low', 'instrumentalness_low'})",12034,acousticness_low|instrumentalness_low
+0.14176020316486782,"frozenset({'danceability_high', 'instrumentalness_low'})",11834,danceability_high|instrumentalness_low
+0.1400711556199763,"frozenset({'liveness_very_high', 'instrumentalness_low'})",11693,instrumentalness_low|liveness_very_high
+0.1370644114088573,"frozenset({'instrumentalness_low', 'duration_ms_high'})",11442,duration_ms_high|instrumentalness_low
+0.13675295583320357,"frozenset({'danceability_low', 'instrumentalness_low'})",11416,danceability_low|instrumentalness_low
+0.13502797110650583,"frozenset({'speechiness_very_low', 'instrumentalness_low'})",11272,instrumentalness_low|speechiness_very_low
+0.13460870398543345,"frozenset({'acousticness_very_high', 'energy_very_low', 'loudness_very_low'})",11237,acousticness_very_high|energy_very_low|loudness_very_low
+0.1317457085015393,"frozenset({'tempo_very_low', 'instrumentalness_low'})",10998,instrumentalness_low|tempo_very_low
+0.13148216916829383,"frozenset({'liveness_high', 'instrumentalness_low'})",10976,instrumentalness_low|liveness_high
+0.13100300674421111,"frozenset({'danceability_very_high', 'instrumentalness_low'})",10936,danceability_very_high|instrumentalness_low
+0.13058373962313877,"frozenset({'tempo_very_high', 'instrumentalness_low'})",10901,instrumentalness_low|tempo_very_high
+0.12958947759316713,"frozenset({'danceability_very_low', 'valence_very_low'})",10818,danceability_very_low|valence_very_low
+0.12760095353322393,"frozenset({'loudness_low', 'instrumentalness_low'})",10652,instrumentalness_low|loudness_low
+0.12703793768492674,"frozenset({'valence_low', 'instrumentalness_low'})",10605,instrumentalness_low|valence_low
+0.12592388504893445,"frozenset({'key_very_high', 'mode_1'})",10512,key_very_high|mode_1
+0.12518118329160627,"frozenset({'acousticness_very_high', 'mode_1', 'energy_very_low'})",10450,acousticness_very_high|energy_very_low|mode_1
+0.12371973789815403,"frozenset({'duration_ms_very_low', 'instrumentalness_low'})",10328,duration_ms_very_low|instrumentalness_low
+0.12260568526216174,"frozenset({'instrumentalness_high', 'valence_very_low'})",10235,instrumentalness_high|valence_very_low
+0.12221037626229352,"frozenset({'instrumentalness_low', 'tempo_low'})",10202,instrumentalness_low|tempo_low
+0.12179110914122114,"frozenset({'key_high', 'instrumentalness_low'})",10167,instrumentalness_low|key_high
+0.1215515279291798,"frozenset({'mode_1', 'energy_very_low', 'loudness_very_low'})",10147,energy_very_low|loudness_very_low|mode_1
+0.12137184202014878,"frozenset({'key_very_high', 'instrumentalness_low'})",10132,instrumentalness_low|key_very_high
+0.1202937265659627,"frozenset({'key_very_low', 'mode_1', 'instrumentalness_low'})",10042,instrumentalness_low|key_very_low|mode_1
+0.11971873165706345,"frozenset({'mode_0', 'key_very_high'})",9994,key_very_high|mode_0
+0.11614897159764731,"frozenset({'liveness_very_low', 'instrumentalness_low'})",9696,instrumentalness_low|liveness_very_low
+0.1159692856886163,"frozenset({'instrumentalness_high', 'loudness_very_low'})",9681,instrumentalness_high|loudness_very_low
+0.11551408138573772,"frozenset({'tempo_high', 'instrumentalness_low'})",9643,instrumentalness_low|tempo_high
+0.11550210232513566,"frozenset({'acousticness_very_high', 'instrumentalness_low'})",9642,acousticness_very_high|instrumentalness_low
+0.11235160938679188,"frozenset({'liveness_low', 'instrumentalness_low'})",9379,instrumentalness_low|liveness_low
+0.1116089076294637,"frozenset({'speechiness_high', 'instrumentalness_low'})",9317,instrumentalness_low|speechiness_high
+0.1097641322967453,"frozenset({'acousticness_high', 'mode_1', 'instrumentalness_low'})",9163,acousticness_high|instrumentalness_low|mode_1
+0.10965632075132668,"frozenset({'valence_very_high', 'danceability_very_high'})",9154,danceability_very_high|valence_very_high
+0.10923705363025432,"frozenset({'acousticness_very_low', 'loudness_very_high'})",9119,acousticness_very_low|loudness_very_high
+0.10767977575198553,"frozenset({'instrumentalness_low', 'speechiness_low'})",8989,instrumentalness_low|speechiness_low
+0.10603864444950227,"frozenset({'valence_very_high', 'mode_1', 'instrumentalness_low'})",8852,instrumentalness_low|mode_1|valence_very_high
+0.10561937732842991,"frozenset({'energy_low', 'loudness_low'})",8817,energy_low|loudness_low
+0.10502042429832653,"frozenset({'mode_0', 'danceability_very_high'})",8767,danceability_very_high|mode_0
+0.10502042429832653,"frozenset({'energy_very_low', 'valence_very_low'})",8767,energy_very_low|valence_very_low
+0.10486469651049965,"frozenset({'speechiness_very_low', 'mode_1', 'instrumentalness_low'})",8754,instrumentalness_low|mode_1|speechiness_very_low
+0.10444542938942727,"frozenset({'acousticness_very_high', 'mode_1', 'loudness_very_low'})",8719,acousticness_very_high|loudness_very_low|mode_1
+0.1041818900561818,"frozenset({'key_low', 'mode_1'})",8697,key_low|mode_1
+0.10372668575330322,"frozenset({'energy_very_low', 'instrumentalness_low'})",8659,energy_very_low|instrumentalness_low
+0.10371470669270116,"frozenset({'mode_0', 'instrumentalness_high'})",8658,instrumentalness_high|mode_0
+0.10355897890487428,"frozenset({'valence_very_low', 'loudness_very_low'})",8645,loudness_very_low|valence_very_low
+0.10341523017764948,"frozenset({'mode_0', 'speechiness_very_high'})",8633,mode_0|speechiness_very_high
+0.10224128223864684,"frozenset({'energy_very_high', 'instrumentalness_low'})",8535,energy_very_high|instrumentalness_low
+0.10044442314833671,"frozenset({'mode_0', 'acousticness_low'})",8385,acousticness_low|mode_0
+0.10028869536050983,"frozenset({'mode_0', 'energy_high'})",8372,energy_high|mode_0
+0.10025275817870363,"frozenset({'mode_0', 'speechiness_high'})",8369,mode_0|speechiness_high
+0.10014494663328502,"frozenset({'acousticness_very_low', 'mode_0'})",8360,acousticness_very_low|mode_0
+0.09971370045161058,"frozenset({'energy_very_high', 'speechiness_very_high'})",8324,energy_very_high|speechiness_very_high
+0.09966578420920232,"frozenset({'energy_low', 'acousticness_high'})",8320,acousticness_high|energy_low
+0.09933037051234442,"frozenset({'danceability_very_low', 'energy_very_low'})",8292,danceability_very_low|energy_very_low
+0.09886318714886379,"frozenset({'duration_ms_very_high', 'mode_0'})",8253,duration_ms_very_high|mode_0
+0.09868350123983277,"frozenset({'energy_low', 'mode_1', 'instrumentalness_low'})",8238,energy_low|instrumentalness_low|mode_1
+0.09773715545226944,"frozenset({'liveness_low', 'energy_very_low'})",8159,energy_very_low|liveness_low
+0.09768923920986117,"frozenset({'energy_high', 'loudness_high'})",8155,energy_high|loudness_high
+0.09760538578564669,"frozenset({'duration_ms_low', 'mode_1', 'instrumentalness_low'})",8148,duration_ms_low|instrumentalness_low|mode_1
+0.09738976269480948,"frozenset({'key_low', 'instrumentalness_low'})",8130,instrumentalness_low|key_low
+0.09725799302818673,"frozenset({'instrumentalness_medium', 'mode_0'})",8119,instrumentalness_medium|mode_0
+0.09694653745253297,"frozenset({'energy_very_high', 'mode_0'})",8093,energy_very_high|mode_0
+0.096419458786042,"frozenset({'energy_very_high', 'liveness_very_high'})",8049,energy_very_high|liveness_very_high
+0.09629966818002132,"frozenset({'liveness_very_low', 'mode_0'})",8039,liveness_very_low|mode_0
+0.09625175193761305,"frozenset({'valence_high', 'mode_1', 'instrumentalness_low'})",8035,instrumentalness_low|mode_1|valence_high
+0.09620383569520478,"frozenset({'loudness_high', 'mode_1', 'instrumentalness_low'})",8031,instrumentalness_low|loudness_high|mode_1
+0.09616789851339858,"frozenset({'mode_0', 'loudness_very_high'})",8028,loudness_very_high|mode_0
+0.09570071514991794,"frozenset({'danceability_very_low', 'loudness_very_low'})",7989,danceability_very_low|loudness_very_low
+0.09567675702871381,"frozenset({'danceability_low', 'mode_1', 'instrumentalness_low'})",7987,danceability_low|instrumentalness_low|mode_1
+0.0956048826651014,"frozenset({'mode_0', 'valence_very_low'})",7981,mode_0|valence_very_low
+0.09536530145306005,"frozenset({'speechiness_very_low', 'energy_very_low'})",7961,energy_very_low|speechiness_very_low
+0.09532936427125385,"frozenset({'danceability_high', 'mode_1', 'instrumentalness_low'})",7958,danceability_high|instrumentalness_low|mode_1
+0.09522155272583524,"frozenset({'tempo_very_low', 'energy_very_low'})",7949,energy_very_low|tempo_very_low
+0.0950897830592125,"frozenset({'instrumentalness_high', 'danceability_very_low'})",7938,danceability_very_low|instrumentalness_high
+0.0950897830592125,"frozenset({'tempo_very_low', 'acousticness_very_high'})",7938,acousticness_very_high|tempo_very_low
+0.09493405527138561,"frozenset({'duration_ms_very_high', 'instrumentalness_high'})",7925,duration_ms_very_high|instrumentalness_high
+0.09462259969573186,"frozenset({'liveness_very_high', 'mode_1', 'instrumentalness_low'})",7899,instrumentalness_low|liveness_very_high|mode_1
+0.09461062063512979,"frozenset({'tempo_high', 'mode_0'})",7898,mode_0|tempo_high
+0.09450280908971119,"frozenset({'instrumentalness_low', 'mode_1', 'loudness_very_high'})",7889,instrumentalness_low|loudness_very_high|mode_1
+0.09447885096850706,"frozenset({'mode_0', 'loudness_high'})",7887,loudness_high|mode_0
+0.09441895566549671,"frozenset({'acousticness_very_low', 'instrumentalness_high'})",7882,acousticness_very_low|instrumentalness_high
+0.09417937445345537,"frozenset({'acousticness_very_high', 'mode_1', 'energy_very_low', 'loudness_very_low'})",7862,acousticness_very_high|energy_very_low|loudness_very_low|mode_1
+0.09410750008984295,"frozenset({'acousticness_very_high', 'danceability_very_low'})",7856,acousticness_very_high|danceability_very_low
+0.09349656799913751,"frozenset({'mode_0', 'tempo_low'})",7805,mode_0|tempo_low
+0.09326896584769823,"frozenset({'mode_0', 'valence_high'})",7786,mode_0|valence_high
+0.09324500772649409,"frozenset({'energy_very_high', 'mode_1', 'loudness_very_high'})",7784,energy_very_high|loudness_very_high|mode_1
+0.09307730087806514,"frozenset({'acousticness_very_high', 'duration_ms_very_low'})",7770,acousticness_very_high|duration_ms_very_low
+0.09292157309023827,"frozenset({'energy_high', 'acousticness_low'})",7757,acousticness_low|energy_high
+0.09232262006013488,"frozenset({'energy_low', 'mode_0'})",7707,energy_low|mode_0
+0.09227470381772661,"frozenset({'duration_ms_low', 'mode_0'})",7703,duration_ms_low|mode_0
+0.09208303884809353,"frozenset({'mode_0', 'danceability_high'})",7687,danceability_high|mode_0
+0.0920590807268894,"frozenset({'valence_very_high', 'energy_high'})",7685,energy_high|valence_very_high
+0.09186741575725632,"frozenset({'mode_0', 'speechiness_low'})",7669,mode_0|speechiness_low
+0.09183147857545011,"frozenset({'duration_ms_very_low', 'energy_very_low'})",7666,duration_ms_very_low|energy_very_low
+0.09177158327243977,"frozenset({'energy_high', 'mode_1', 'instrumentalness_low'})",7661,energy_high|instrumentalness_low|mode_1
+0.09169970890882737,"frozenset({'speechiness_very_high', 'loudness_very_high'})",7655,loudness_very_high|speechiness_very_high
+0.09143616957558189,"frozenset({'mode_0', 'duration_ms_high'})",7633,duration_ms_high|mode_0
+0.09104086057571366,"frozenset({'mode_1', 'acousticness_low', 'instrumentalness_low'})",7600,acousticness_low|instrumentalness_low|mode_1
+0.0909450280908971,"frozenset({'instrumentalness_high', 'energy_very_low'})",7592,energy_very_low|instrumentalness_high
+0.09092106996969297,"frozenset({'mode_1', 'instrumentalness_low', 'duration_ms_high'})",7590,duration_ms_high|instrumentalness_low|mode_1
+0.0908731537272847,"frozenset({'mode_0', 'loudness_low'})",7586,loudness_low|mode_0
+0.0908012793636723,"frozenset({'acousticness_high', 'mode_0'})",7580,acousticness_high|mode_0
+0.09077732124246816,"frozenset({'mode_0', 'liveness_high'})",7578,liveness_high|mode_0
+0.09054971909102888,"frozenset({'duration_ms_very_high', 'valence_very_low'})",7559,duration_ms_very_high|valence_very_low
+0.09053774003042682,"frozenset({'danceability_very_low', 'instrumentalness_low'})",7558,danceability_very_low|instrumentalness_low
+0.09045388660621234,"frozenset({'valence_low', 'mode_0'})",7551,mode_0|valence_low
+0.08996274512152758,"frozenset({'duration_ms_very_high', 'instrumentalness_low'})",7510,duration_ms_very_high|instrumentalness_low
+0.08963931048527174,"frozenset({'mode_0', 'liveness_low'})",7483,liveness_low|mode_0
+0.08962733142466968,"frozenset({'energy_very_high', 'tempo_very_high'})",7482,energy_very_high|tempo_very_high
+0.0896153523640676,"frozenset({'acousticness_low', 'danceability_very_high'})",7481,acousticness_low|danceability_very_high
+0.08953149893985314,"frozenset({'mode_0', 'liveness_very_high'})",7474,liveness_very_high|mode_0
+0.08922004336419938,"frozenset({'mode_0', 'tempo_very_high'})",7448,mode_0|tempo_very_high
+0.0891002527581787,"frozenset({'acousticness_very_low', 'energy_very_high', 'mode_1'})",7438,acousticness_very_low|energy_very_high|mode_1
+0.08892056684914769,"frozenset({'tempo_very_low', 'mode_0'})",7423,mode_0|tempo_very_low
+0.08868098563710634,"frozenset({'acousticness_very_low', 'energy_very_high', 'loudness_very_high'})",7403,acousticness_very_low|energy_very_high|loudness_very_high
+0.08842942536446292,"frozenset({'liveness_low', 'loudness_very_low'})",7382,liveness_low|loudness_very_low
+0.08826171851603397,"frozenset({'loudness_low', 'mode_1', 'instrumentalness_low'})",7368,instrumentalness_low|loudness_low|mode_1
+0.08808203260700295,"frozenset({'acousticness_very_high', 'liveness_low'})",7353,acousticness_very_high|liveness_low
+0.08793828387977815,"frozenset({'tempo_very_low', 'loudness_very_low'})",7341,loudness_very_low|tempo_very_low
+0.08791432575857401,"frozenset({'mode_0', 'key_low'})",7339,key_low|mode_0
+0.08779453515255334,"frozenset({'tempo_very_high', 'danceability_very_low'})",7329,danceability_very_low|tempo_very_high
+0.08774661891014507,"frozenset({'acousticness_very_high', 'valence_very_low'})",7325,acousticness_very_high|valence_very_low
+0.08772266078894093,"frozenset({'mode_1', 'tempo_very_high', 'instrumentalness_low'})",7323,instrumentalness_low|mode_1|tempo_very_high
+0.08767474454653267,"frozenset({'energy_very_high', 'speechiness_high'})",7319,energy_very_high|speechiness_high
+0.08757891206171613,"frozenset({'mode_1', 'liveness_high', 'instrumentalness_low'})",7311,instrumentalness_low|liveness_high|mode_1
+0.08753099581930784,"frozenset({'duration_ms_very_low', 'loudness_very_low'})",7307,duration_ms_very_low|loudness_very_low
+0.08696797997101068,"frozenset({'tempo_very_high', 'loudness_very_high'})",7260,loudness_very_high|tempo_very_high
+0.0869200637286024,"frozenset({'valence_very_high', 'mode_0'})",7256,mode_0|valence_very_high
+0.08687214748619414,"frozenset({'speechiness_very_high', 'danceability_very_high'})",7252,danceability_very_high|speechiness_very_high
+0.08678829406197966,"frozenset({'tempo_very_low', 'mode_1', 'instrumentalness_low'})",7245,instrumentalness_low|mode_1|tempo_very_low
+0.08670444063776518,"frozenset({'liveness_very_low', 'danceability_very_high'})",7238,danceability_very_high|liveness_very_low
+0.0860336132440494,"frozenset({'energy_low', 'speechiness_very_low'})",7182,energy_low|speechiness_very_low
+0.08600965512284527,"frozenset({'acousticness_very_high', 'mode_1', 'instrumentalness_low'})",7180,acousticness_very_high|instrumentalness_low|mode_1
+0.0859976760622432,"frozenset({'danceability_very_high', 'tempo_low'})",7179,danceability_very_high|tempo_low
+0.08597371794103906,"frozenset({'key_high', 'mode_1', 'instrumentalness_low'})",7177,instrumentalness_low|key_high|mode_1
+0.08580601109261012,"frozenset({'valence_low', 'mode_1', 'instrumentalness_low'})",7163,instrumentalness_low|mode_1|valence_low
+0.08560236706237496,"frozenset({'mode_1', 'speechiness_very_high', 'instrumentalness_low'})",7146,instrumentalness_low|mode_1|speechiness_very_high
+0.08513518369889433,"frozenset({'mode_1', 'duration_ms_very_low', 'instrumentalness_low'})",7107,duration_ms_very_low|instrumentalness_low|mode_1
+0.08494351872926126,"frozenset({'valence_very_high', 'acousticness_high'})",7091,acousticness_high|valence_very_high
+0.08488362342625091,"frozenset({'mode_0', 'danceability_very_low'})",7086,danceability_very_low|mode_0
+0.08472789563842403,"frozenset({'mode_0', 'loudness_very_low'})",7073,loudness_very_low|mode_0
+0.08447633536578061,"frozenset({'liveness_very_high', 'speechiness_very_high'})",7052,liveness_very_high|speechiness_very_high
+0.0842607122749434,"frozenset({'danceability_low', 'mode_0'})",7034,danceability_low|mode_0
+0.08420081697193306,"frozenset({'energy_very_low', 'valence_very_low', 'loudness_very_low'})",7029,energy_very_low|loudness_very_low|valence_very_low
+0.08416487979012686,"frozenset({'acousticness_very_low', 'danceability_very_low'})",7026,acousticness_very_low|danceability_very_low
+0.08398519388109585,"frozenset({'energy_low', 'danceability_very_high'})",7011,danceability_very_high|energy_low
+0.08390134045688137,"frozenset({'acousticness_very_low', 'speechiness_high'})",7004,acousticness_very_low|speechiness_high
+0.08373363360845243,"frozenset({'speechiness_very_low', 'acousticness_very_high'})",6990,acousticness_very_high|speechiness_very_low
+0.08367373830544209,"frozenset({'mode_0', 'duration_ms_very_low'})",6985,duration_ms_very_low|mode_0
+0.0834101989721966,"frozenset({'mode_1', 'valence_very_low', 'danceability_very_low'})",6963,danceability_very_low|mode_1|valence_very_low
+0.0834101989721966,"frozenset({'acousticness_low', 'loudness_very_high'})",6963,acousticness_low|loudness_very_high
+0.08320655494196146,"frozenset({'energy_high', 'danceability_very_high'})",6946,danceability_very_high|energy_high
+0.08288312030570563,"frozenset({'tempo_high', 'danceability_very_high'})",6919,danceability_very_high|tempo_high
+0.08278728782088908,"frozenset({'tempo_very_low', 'danceability_very_low'})",6911,danceability_very_low|tempo_very_low
+0.08247583224523533,"frozenset({'key_very_low', 'valence_very_low'})",6885,key_very_low|valence_very_low
+0.08243989506342912,"frozenset({'instrumentalness_high', 'energy_very_low', 'loudness_very_low'})",6882,energy_very_low|instrumentalness_high|loudness_very_low
+0.0822602091543981,"frozenset({'liveness_low', 'valence_very_low'})",6867,liveness_low|valence_very_low
+0.08222427197259191,"frozenset({'key_very_low', 'danceability_very_low'})",6864,danceability_very_low|key_very_low
+0.08221229291198984,"frozenset({'speechiness_very_low', 'loudness_low'})",6863,loudness_low|speechiness_very_low
+0.08169719330610094,"frozenset({'key_very_low', 'energy_very_low'})",6820,energy_very_low|key_very_low
+0.0816372980030906,"frozenset({'liveness_very_high', 'loudness_very_high'})",6815,liveness_very_high|loudness_very_high
+0.08150552833646785,"frozenset({'acousticness_very_low', 'instrumentalness_medium'})",6804,acousticness_very_low|instrumentalness_medium
+0.08150552833646785,"frozenset({'acousticness_very_low', 'duration_ms_very_high'})",6804,acousticness_very_low|duration_ms_very_high
+0.08130188430623271,"frozenset({'instrumentalness_low', 'mode_1', 'tempo_low'})",6787,instrumentalness_low|mode_1|tempo_low
+0.0812300099426203,"frozenset({'key_very_low', 'loudness_very_low'})",6781,key_very_low|loudness_very_low
+0.08105032403358929,"frozenset({'loudness_very_low', 'speechiness_low'})",6766,loudness_very_low|speechiness_low
+0.08096647060937481,"frozenset({'mode_0', 'key_very_low'})",6759,key_very_low|mode_0
+0.08087063812455828,"frozenset({'speechiness_very_high', 'tempo_very_high'})",6751,speechiness_very_high|tempo_very_high
+0.08082272188215,"frozenset({'acousticness_high', 'danceability_very_high'})",6747,acousticness_high|danceability_very_high
+0.0807867847003438,"frozenset({'speechiness_very_low', 'key_very_low'})",6744,key_very_low|speechiness_very_low
+0.08072688939733347,"frozenset({'instrumentalness_high', 'speechiness_low'})",6739,instrumentalness_high|speechiness_low
+0.08070293127612932,"frozenset({'speechiness_very_high', 'duration_ms_very_low'})",6737,duration_ms_very_low|speechiness_very_high
+0.08064303597311899,"frozenset({'acousticness_high', 'loudness_low'})",6732,acousticness_high|loudness_low
+0.08061907785191486,"frozenset({'acousticness_very_high', 'danceability_very_low', 'energy_very_low'})",6730,acousticness_very_high|danceability_very_low|energy_very_low
+0.08055918254890451,"frozenset({'key_very_low', 'duration_ms_very_low'})",6725,duration_ms_very_low|key_very_low
+0.08042741288228177,"frozenset({'acousticness_very_high', 'instrumentalness_high'})",6714,acousticness_very_high|instrumentalness_high
+0.08008002012482181,"frozenset({'valence_very_high', 'danceability_high'})",6685,danceability_high|valence_very_high
+0.08005606200361767,"frozenset({'acousticness_very_high', 'key_very_low'})",6683,acousticness_very_high|key_very_low
+0.07996022951880113,"frozenset({'liveness_very_low', 'key_very_low'})",6675,key_very_low|liveness_very_low
+0.07992429233699493,"frozenset({'key_very_low', 'tempo_low'})",6672,key_very_low|tempo_low
+0.0798643970339846,"frozenset({'acousticness_very_low', 'key_very_low'})",6667,acousticness_very_low|key_very_low
+0.07985241797338252,"frozenset({'acousticness_very_low', 'tempo_high'})",6666,acousticness_very_low|tempo_high
+0.07985241797338252,"frozenset({'danceability_very_low', 'energy_very_low', 'loudness_very_low'})",6666,danceability_very_low|energy_very_low|loudness_very_low
+0.07967273206435152,"frozenset({'key_very_low', 'speechiness_low'})",6651,key_very_low|speechiness_low
+0.07962481582194324,"frozenset({'liveness_very_high', 'key_very_low'})",6647,key_very_low|liveness_very_high
+0.07958887864013704,"frozenset({'instrumentalness_high', 'key_very_low'})",6644,instrumentalness_high|key_very_low
+0.07955294145833083,"frozenset({'mode_1', 'danceability_very_high', 'instrumentalness_low'})",6641,danceability_very_high|instrumentalness_low|mode_1
+0.07938523460990189,"frozenset({'duration_ms_low', 'key_very_low'})",6627,duration_ms_low|key_very_low
+0.07937325554929982,"frozenset({'acousticness_very_low', 'tempo_very_high'})",6626,acousticness_very_low|tempo_very_high
+0.07927742306448328,"frozenset({'acousticness_very_high', 'speechiness_low'})",6618,acousticness_very_high|speechiness_low
+0.0790857580948502,"frozenset({'key_very_low', 'tempo_very_high'})",6602,key_very_low|tempo_very_high
+0.07902586279183986,"frozenset({'instrumentalness_high', 'liveness_low'})",6597,instrumentalness_high|liveness_low
+0.07898992561003366,"frozenset({'valence_very_high', 'acousticness_low'})",6594,acousticness_low|valence_very_high
+0.07896596748882953,"frozenset({'tempo_high', 'mode_1', 'instrumentalness_low'})",6592,instrumentalness_low|mode_1|tempo_high
+0.07869044909498198,"frozenset({'mode_1', 'energy_very_low', 'instrumentalness_low'})",6569,energy_very_low|instrumentalness_low|mode_1
+0.07854670036775716,"frozenset({'valence_low', 'key_very_low'})",6557,key_very_low|valence_low
+0.07851076318595096,"frozenset({'tempo_very_low', 'key_very_low'})",6554,key_very_low|tempo_very_low
+0.07848680506474683,"frozenset({'energy_very_high', 'danceability_very_low'})",6552,danceability_very_low|energy_very_high
+0.07846284694354269,"frozenset({'loudness_low', 'key_very_low'})",6550,key_very_low|loudness_low
+0.0782352447921034,"frozenset({'speechiness_very_low', 'acousticness_high'})",6531,acousticness_high|speechiness_very_low
+0.07817534948909306,"frozenset({'energy_high', 'key_very_low'})",6526,energy_high|key_very_low
+0.07813941230728687,"frozenset({'key_very_low', 'liveness_low'})",6523,key_very_low|liveness_low
+0.07803160076186826,"frozenset({'energy_very_low', 'speechiness_low'})",6514,energy_very_low|speechiness_low
+0.07800764264066412,"frozenset({'energy_very_low', 'acousticness_very_high', 'valence_very_low'})",6512,acousticness_very_high|energy_very_low|valence_very_low
+0.07794774733765378,"frozenset({'valence_low', 'danceability_low'})",6507,danceability_low|valence_low
+0.07786389391343931,"frozenset({'valence_very_high', 'duration_ms_very_low'})",6500,duration_ms_very_low|valence_very_high
+0.07783993579223518,"frozenset({'danceability_low', 'key_very_low'})",6498,danceability_low|key_very_low
+0.07781597767103104,"frozenset({'energy_high', 'loudness_very_high'})",6496,energy_high|loudness_very_high
+0.07770816612561243,"frozenset({'speechiness_very_low', 'liveness_low'})",6487,liveness_low|speechiness_very_low
+0.07766024988320416,"frozenset({'key_very_low', 'loudness_very_high'})",6483,key_very_low|loudness_very_high
+0.07764827082260209,"frozenset({'mode_0', 'key_high'})",6482,key_high|mode_0
+0.0776123336407959,"frozenset({'valence_very_high', 'key_very_low'})",6479,key_very_low|valence_very_high
+0.07758837551959176,"frozenset({'key_very_low', 'duration_ms_high'})",6477,duration_ms_high|key_very_low
+0.07756441739838763,"frozenset({'danceability_high', 'key_very_low'})",6475,danceability_high|key_very_low
+0.07756441739838763,"frozenset({'acousticness_high', 'key_very_low'})",6475,acousticness_high|key_very_low
+0.07748056397417315,"frozenset({'energy_low', 'key_very_low'})",6468,energy_low|key_very_low
+0.07745660585296901,"frozenset({'energy_very_high', 'key_very_low'})",6466,energy_very_high|key_very_low
+0.07745660585296901,"frozenset({'loudness_high', 'key_very_low'})",6466,key_very_low|loudness_high
+0.07732483618634627,"frozenset({'key_very_low', 'acousticness_low'})",6455,acousticness_low|key_very_low
+0.07732483618634627,"frozenset({'speechiness_very_low', 'danceability_low'})",6455,danceability_low|speechiness_very_low
+0.07728889900454007,"frozenset({'tempo_high', 'key_very_low'})",6452,key_very_low|tempo_high
+0.077276919943938,"frozenset({'duration_ms_very_high', 'key_very_low'})",6451,duration_ms_very_high|key_very_low
+0.07719306651972352,"frozenset({'speechiness_high', 'key_very_low'})",6444,key_very_low|speechiness_high
+0.07719306651972352,"frozenset({'duration_ms_very_high', 'danceability_very_low'})",6444,danceability_very_low|duration_ms_very_high
+0.07718108745912146,"frozenset({'key_very_low', 'danceability_very_high'})",6443,danceability_very_high|key_very_low
+0.07715712933791732,"frozenset({'key_very_low', 'speechiness_very_high'})",6441,key_very_low|speechiness_very_high
+0.07712119215611112,"frozenset({'loudness_high', 'acousticness_low'})",6438,acousticness_low|loudness_high
+0.07710921309550905,"frozenset({'danceability_low', 'tempo_very_high'})",6437,danceability_low|tempo_very_high
+0.07709723403490698,"frozenset({'duration_ms_low', 'loudness_very_high'})",6436,duration_ms_low|loudness_very_high
+0.07708525497430492,"frozenset({'key_very_low', 'liveness_high'})",6435,key_very_low|liveness_high
+0.07700140155009044,"frozenset({'speechiness_very_low', 'danceability_high'})",6428,danceability_high|speechiness_very_low
+0.07692952718647804,"frozenset({'speechiness_very_low', 'duration_ms_high'})",6422,duration_ms_high|speechiness_very_low
+0.07673786221684495,"frozenset({'instrumentalness_low', 'loudness_very_low'})",6406,instrumentalness_low|loudness_very_low
+0.07668994597443668,"frozenset({'mode_0', 'energy_very_low'})",6402,energy_very_low|mode_0
+0.07655817630781395,"frozenset({'mode_1', 'liveness_low', 'instrumentalness_low'})",6391,instrumentalness_low|liveness_low|mode_1
+0.07640244851998707,"frozenset({'acousticness_very_low', 'valence_very_low'})",6378,acousticness_very_low|valence_very_low
+0.07617484636854778,"frozenset({'key_very_low', 'valence_high'})",6359,key_very_low|valence_high
+0.0760909929443333,"frozenset({'instrumentalness_high', 'speechiness_high'})",6352,instrumentalness_high|speechiness_high
+0.07604307670192503,"frozenset({'energy_very_high', 'instrumentalness_medium'})",6348,energy_very_high|instrumentalness_medium
+0.0760191185807209,"frozenset({'liveness_very_low', 'mode_1', 'instrumentalness_low'})",6346,instrumentalness_low|liveness_very_low|mode_1
+0.07571964206566921,"frozenset({'instrumentalness_medium', 'key_very_low'})",6321,instrumentalness_medium|key_very_low
+0.07552797709603613,"frozenset({'energy_high', 'danceability_high'})",6305,danceability_high|energy_high
+0.07551599803543406,"frozenset({'acousticness_very_low', 'liveness_very_high'})",6304,acousticness_very_low|liveness_very_high
+0.07527641682339271,"frozenset({'instrumentalness_low', 'energy_very_high', 'loudness_very_high'})",6284,energy_very_high|instrumentalness_low|loudness_very_high
+0.0750967309143617,"frozenset({'acousticness_very_low', 'loudness_high'})",6269,acousticness_very_low|loudness_high
+0.07508475185375962,"frozenset({'valence_very_high', 'liveness_very_low'})",6268,liveness_very_low|valence_very_high
+0.07503683561135135,"frozenset({'energy_low', 'loudness_high'})",6264,energy_low|loudness_high
+0.0750248565507493,"frozenset({'acousticness_very_low', 'speechiness_very_high'})",6263,acousticness_very_low|speechiness_very_high
+0.07485714970232034,"frozenset({'mode_0', 'acousticness_very_high'})",6249,acousticness_very_high|mode_0
+0.07458163130847278,"frozenset({'speechiness_high', 'loudness_very_high'})",6226,loudness_very_high|speechiness_high
+0.07453371506606452,"frozenset({'acousticness_very_low', 'instrumentalness_low'})",6222,acousticness_very_low|instrumentalness_low
+0.07430611291462523,"frozenset({'energy_very_high', 'danceability_low'})",6203,danceability_low|energy_very_high
+0.07427017573281904,"frozenset({'duration_ms_very_high', 'tempo_high'})",6200,duration_ms_very_high|tempo_high
+0.07427017573281904,"frozenset({'duration_ms_very_low', 'danceability_very_high'})",6200,danceability_very_high|duration_ms_very_low
+0.07397069921776735,"frozenset({'valence_very_low', 'speechiness_low'})",6175,speechiness_low|valence_very_low
+0.07379101330873633,"frozenset({'valence_very_high', 'loudness_very_high'})",6160,loudness_very_high|valence_very_high
+0.0737670551875322,"frozenset({'tempo_very_low', 'valence_very_low'})",6158,tempo_very_low|valence_very_low
+0.07368320176331772,"frozenset({'acousticness_high', 'danceability_high'})",6151,acousticness_high|danceability_high
+0.07365924364211358,"frozenset({'acousticness_low', 'speechiness_very_high'})",6149,acousticness_low|speechiness_very_high
+0.07364726458151152,"frozenset({'tempo_high', 'instrumentalness_high'})",6148,instrumentalness_high|tempo_high
+0.07361132739970531,"frozenset({'mode_1', 'instrumentalness_low', 'speechiness_low'})",6145,instrumentalness_low|mode_1|speechiness_low
+0.07358736927850118,"frozenset({'loudness_very_high', 'duration_ms_high'})",6143,duration_ms_high|loudness_very_high
+0.07353945303609291,"frozenset({'liveness_very_high', 'danceability_very_low'})",6139,danceability_very_low|liveness_very_high
+0.07333580900585776,"frozenset({'danceability_high', 'valence_high'})",6122,danceability_high|valence_high
+0.07316810215742882,"frozenset({'loudness_low', 'danceability_very_high'})",6108,danceability_very_high|loudness_low
+0.07309622779381642,"frozenset({'danceability_very_low', 'speechiness_low'})",6102,danceability_very_low|speechiness_low
+0.0729524790665916,"frozenset({'speechiness_high', 'danceability_very_high'})",6090,danceability_very_high|speechiness_high
+0.07290456282418332,"frozenset({'valence_high', 'speechiness_very_high'})",6086,speechiness_very_high|valence_high
+0.07286862564237713,"frozenset({'instrumentalness_high', 'duration_ms_very_low'})",6083,duration_ms_very_low|instrumentalness_high
+0.07285664658177506,"frozenset({'speechiness_very_low', 'tempo_low'})",6082,speechiness_very_low|tempo_low
+0.07267696067274404,"frozenset({'instrumentalness_high', 'mode_1', 'valence_very_low'})",6067,instrumentalness_high|mode_1|valence_very_low
+0.07267696067274404,"frozenset({'acousticness_very_high', 'liveness_low', 'energy_very_low'})",6067,acousticness_very_high|energy_very_low|liveness_low
+0.0726530025515399,"frozenset({'duration_ms_very_high', 'liveness_very_low'})",6065,duration_ms_very_high|liveness_very_low
+0.07249727476371302,"frozenset({'acousticness_very_high', 'danceability_very_low', 'loudness_very_low'})",6052,acousticness_very_high|danceability_very_low|loudness_very_low
+0.07247331664250889,"frozenset({'valence_low', 'speechiness_very_low'})",6050,speechiness_very_low|valence_low
+0.07231758885468202,"frozenset({'danceability_high', 'acousticness_low'})",6037,acousticness_low|danceability_high
+0.07223373543046754,"frozenset({'duration_ms_very_high', 'loudness_low'})",6030,duration_ms_very_high|loudness_low
+0.07214988200625307,"frozenset({'speechiness_very_low', 'mode_1', 'energy_very_low'})",6023,energy_very_low|mode_1|speechiness_very_low
+0.07207800764264066,"frozenset({'danceability_low', 'duration_ms_high'})",6017,danceability_low|duration_ms_high
+0.07194623797601792,"frozenset({'tempo_very_low', 'duration_ms_very_low'})",6006,duration_ms_very_low|tempo_very_low
+0.07191030079421172,"frozenset({'acousticness_high', 'energy_high'})",6003,acousticness_high|energy_high
+0.07185040549120138,"frozenset({'valence_low', 'energy_very_low'})",5998,energy_very_low|valence_low
+0.07185040549120138,"frozenset({'valence_very_high', 'loudness_high'})",5998,loudness_high|valence_very_high
+0.0717306148851807,"frozenset({'acousticness_very_low', 'danceability_low'})",5988,acousticness_very_low|danceability_low
+0.07170665676397657,"frozenset({'tempo_very_low', 'liveness_low'})",5986,liveness_low|tempo_very_low
+0.07168269864277244,"frozenset({'duration_ms_low', 'acousticness_low'})",5984,acousticness_low|duration_ms_low
+0.07164676146096623,"frozenset({'acousticness_very_high', 'valence_very_low', 'loudness_very_low'})",5981,acousticness_very_high|loudness_very_low|valence_very_low
+0.07156290803675176,"frozenset({'energy_high', 'valence_high'})",5974,energy_high|valence_high
+0.0715149917943435,"frozenset({'valence_high', 'loudness_very_high'})",5970,loudness_very_high|valence_high
+0.07150301273374142,"frozenset({'acousticness_very_high', 'instrumentalness_high', 'loudness_very_low'})",5969,acousticness_very_high|instrumentalness_high|loudness_very_low
+0.07146707555193521,"frozenset({'valence_low', 'liveness_low'})",5966,liveness_low|valence_low
+0.07145509649133315,"frozenset({'energy_low', 'acousticness_low'})",5965,acousticness_low|energy_low
+0.07145509649133315,"frozenset({'liveness_low', 'energy_very_low', 'loudness_very_low'})",5965,energy_very_low|liveness_low|loudness_very_low
+0.07129936870350627,"frozenset({'acousticness_high', 'loudness_high'})",5952,acousticness_high|loudness_high
+0.07126343152170007,"frozenset({'danceability_low', 'loudness_very_high'})",5949,danceability_low|loudness_very_high
+0.07126343152170007,"frozenset({'valence_high', 'danceability_very_high'})",5949,danceability_very_high|valence_high
+0.071251452461098,"frozenset({'danceability_low', 'liveness_very_high'})",5948,danceability_low|liveness_very_high
+0.07123947340049594,"frozenset({'speechiness_very_low', 'loudness_very_low'})",5947,loudness_very_low|speechiness_very_low
+0.07121551527929179,"frozenset({'duration_ms_low', 'valence_high'})",5945,duration_ms_low|valence_high
+0.07111968279447525,"frozenset({'instrumentalness_high', 'mode_1', 'loudness_very_low'})",5937,instrumentalness_high|loudness_very_low|mode_1
+0.07105978749146492,"frozenset({'tempo_very_low', 'energy_very_low', 'loudness_very_low'})",5932,energy_very_low|loudness_very_low|tempo_very_low
+0.07104780843086285,"frozenset({'tempo_very_low', 'acousticness_very_high', 'energy_very_low'})",5931,acousticness_very_high|energy_very_low|tempo_very_low
+0.07085614346122977,"frozenset({'energy_very_high', 'tempo_high'})",5915,energy_very_high|tempo_high
+0.07082020627942356,"frozenset({'key_very_high', 'mode_1', 'instrumentalness_low'})",5912,instrumentalness_low|key_very_high|mode_1
+0.07071239473400497,"frozenset({'speechiness_very_low', 'mode_0'})",5903,mode_0|speechiness_very_low
+0.07070041567340289,"frozenset({'speechiness_high', 'mode_1', 'instrumentalness_low'})",5902,instrumentalness_low|mode_1|speechiness_high
+0.07056864600678014,"frozenset({'acousticness_very_low', 'valence_low'})",5891,acousticness_very_low|valence_low
+0.07037698103714707,"frozenset({'duration_ms_low', 'danceability_high'})",5875,danceability_high|duration_ms_low
+0.07034104385534086,"frozenset({'energy_very_high', 'duration_ms_high'})",5872,duration_ms_high|energy_very_high
+0.07031708573413673,"frozenset({'energy_very_high', 'instrumentalness_high'})",5870,energy_very_high|instrumentalness_high
+0.07030510667353466,"frozenset({'instrumentalness_medium', 'duration_ms_high'})",5869,duration_ms_high|instrumentalness_medium
+0.07024521137052432,"frozenset({'tempo_high', 'acousticness_low'})",5864,acousticness_low|tempo_high
+0.07012542076450365,"frozenset({'instrumentalness_high', 'acousticness_very_high', 'energy_very_low'})",5854,acousticness_very_high|energy_very_low|instrumentalness_high
+0.07004156734028917,"frozenset({'loudness_high', 'danceability_very_high'})",5847,danceability_very_high|loudness_high
+0.07002958827968711,"frozenset({'liveness_very_low', 'instrumentalness_high'})",5846,instrumentalness_high|liveness_very_low
+0.07001760921908504,"frozenset({'danceability_high', 'tempo_low'})",5845,danceability_high|tempo_low
+0.0699936510978809,"frozenset({'energy_very_low', 'mode_1', 'valence_very_low'})",5843,energy_very_low|mode_1|valence_very_low
+0.06982594424945196,"frozenset({'speechiness_very_low', 'tempo_very_low'})",5829,speechiness_very_low|tempo_very_low
+0.06979000706764575,"frozenset({'liveness_low', 'speechiness_low'})",5826,liveness_low|speechiness_low
+0.06976604894644162,"frozenset({'tempo_high', 'danceability_high'})",5824,danceability_high|tempo_high
+0.06975406988583956,"frozenset({'acousticness_very_high', 'duration_ms_very_low', 'energy_very_low'})",5823,acousticness_very_high|duration_ms_very_low|energy_very_low
+0.06967021646162508,"frozenset({'duration_ms_very_low', 'energy_very_low', 'loudness_very_low'})",5816,duration_ms_very_low|energy_very_low|loudness_very_low
+0.06962230021921681,"frozenset({'speechiness_very_low', 'instrumentalness_medium'})",5812,instrumentalness_medium|speechiness_very_low
+0.06959834209801267,"frozenset({'valence_very_high', 'duration_ms_low'})",5810,duration_ms_low|valence_very_high
+0.06959834209801267,"frozenset({'energy_high', 'speechiness_low'})",5810,energy_high|speechiness_low
+0.06956240491620647,"frozenset({'loudness_low', 'danceability_high'})",5807,danceability_high|loudness_low
+0.06932282370416512,"frozenset({'speechiness_high', 'tempo_very_high'})",5787,speechiness_high|tempo_very_high
+0.06928688652235891,"frozenset({'acousticness_very_low', 'energy_high'})",5784,acousticness_very_low|energy_high
+0.06925094934055272,"frozenset({'duration_ms_low', 'energy_high'})",5781,duration_ms_low|energy_high
+0.06922699121934858,"frozenset({'energy_low', 'danceability_high'})",5779,danceability_high|energy_low
+0.06921501215874651,"frozenset({'acousticness_high', 'tempo_very_low'})",5778,acousticness_high|tempo_very_low
+0.06921501215874651,"frozenset({'tempo_high', 'energy_high'})",5778,energy_high|tempo_high
+0.06915511685573618,"frozenset({'duration_ms_very_high', 'speechiness_low'})",5773,duration_ms_very_high|speechiness_low
+0.06915511685573618,"frozenset({'valence_high', 'acousticness_low'})",5773,acousticness_low|valence_high
+0.06911917967392997,"frozenset({'mode_1', 'liveness_low', 'energy_very_low'})",5770,energy_very_low|liveness_low|mode_1
+0.06909522155272584,"frozenset({'energy_low', 'liveness_low'})",5768,energy_low|liveness_low
+0.06885564034068449,"frozenset({'acousticness_very_low', 'duration_ms_high'})",5748,acousticness_very_low|duration_ms_high
+0.06883168221948034,"frozenset({'valence_very_high', 'tempo_low'})",5746,tempo_low|valence_very_high
+0.0687358497346638,"frozenset({'instrumentalness_high', 'valence_very_low', 'loudness_very_low'})",5738,instrumentalness_high|loudness_very_low|valence_very_low
+0.06872387067406174,"frozenset({'instrumentalness_high', 'danceability_very_low', 'valence_very_low'})",5737,danceability_very_low|instrumentalness_high|valence_very_low
+0.06869991255285761,"frozenset({'speechiness_very_low', 'valence_very_low'})",5735,speechiness_very_low|valence_very_low
+0.06869991255285761,"frozenset({'valence_low', 'duration_ms_high'})",5735,duration_ms_high|valence_low
+0.06864001724984727,"frozenset({'valence_low', 'danceability_very_low'})",5730,danceability_very_low|valence_low
+0.06860408006804107,"frozenset({'energy_low', 'valence_high'})",5727,energy_low|valence_high
+0.06849626852262246,"frozenset({'mode_1', 'energy_very_low', 'danceability_very_low'})",5718,danceability_very_low|energy_very_low|mode_1
+0.06840043603780592,"frozenset({'liveness_very_high', 'valence_high'})",5710,liveness_very_high|valence_high
+0.06837647791660179,"frozenset({'liveness_very_high', 'tempo_very_high'})",5708,liveness_very_high|tempo_very_high
+0.06835251979539765,"frozenset({'valence_very_high', 'danceability_very_high', 'instrumentalness_low'})",5706,danceability_very_high|instrumentalness_low|valence_very_high
+0.06829262449238731,"frozenset({'loudness_low', 'liveness_low'})",5701,liveness_low|loudness_low
+0.0682207501287749,"frozenset({'valence_very_low', 'instrumentalness_low'})",5695,instrumentalness_low|valence_very_low
+0.06820877106817283,"frozenset({'energy_high', 'liveness_very_high'})",5694,energy_high|liveness_very_high
+0.0681488757651625,"frozenset({'loudness_high', 'danceability_high'})",5689,danceability_high|loudness_high
+0.06813689670456043,"frozenset({'energy_very_high', 'acousticness_low'})",5688,acousticness_low|energy_very_high
+0.0680770014015501,"frozenset({'valence_very_high', 'speechiness_high'})",5683,speechiness_high|valence_very_high
+0.0680770014015501,"frozenset({'loudness_low', 'tempo_low'})",5683,loudness_low|tempo_low
+0.06806502234094802,"frozenset({'instrumentalness_medium', 'tempo_low'})",5682,instrumentalness_medium|tempo_low
+0.06806502234094802,"frozenset({'loudness_high', 'valence_high'})",5682,loudness_high|valence_high
+0.06806502234094802,"frozenset({'duration_ms_low', 'loudness_high'})",5682,duration_ms_low|loudness_high
+0.06802908515914181,"frozenset({'energy_low', 'acousticness_high', 'instrumentalness_low'})",5679,acousticness_high|energy_low|instrumentalness_low
+0.06801710609853975,"frozenset({'loudness_high', 'duration_ms_high'})",5678,duration_ms_high|loudness_high
+0.06796918985613148,"frozenset({'acousticness_very_high', 'danceability_very_low', 'energy_very_low', 'loudness_very_low'})",5674,acousticness_very_high|danceability_very_low|energy_very_low|loudness_very_low
+0.06795721079552941,"frozenset({'loudness_high', 'liveness_very_high'})",5673,liveness_very_high|loudness_high
+0.06792127361372322,"frozenset({'acousticness_very_high', 'energy_very_low', 'instrumentalness_low'})",5670,acousticness_very_high|energy_very_low|instrumentalness_low
+0.067885336431917,"frozenset({'liveness_very_low', 'speechiness_high'})",5667,liveness_very_low|speechiness_high
+0.06784939925011081,"frozenset({'duration_ms_low', 'speechiness_very_high'})",5664,duration_ms_low|speechiness_very_high
+0.0677775248864984,"frozenset({'acousticness_low', 'duration_ms_high'})",5658,acousticness_low|duration_ms_high
+0.06775356676529426,"frozenset({'duration_ms_very_high', 'loudness_very_low'})",5656,duration_ms_very_high|loudness_very_low
+0.0677415877046922,"frozenset({'speechiness_very_low', 'liveness_high'})",5655,liveness_high|speechiness_very_low
+0.06771762958348806,"frozenset({'liveness_high', 'loudness_very_high'})",5653,liveness_high|loudness_very_high
+0.06764575521987566,"frozenset({'energy_very_low', 'danceability_very_low', 'valence_very_low'})",5647,danceability_very_low|energy_very_low|valence_very_low
+0.06754992273505912,"frozenset({'acousticness_high', 'tempo_low'})",5639,acousticness_high|tempo_low
+0.06750200649265084,"frozenset({'tempo_high', 'speechiness_low'})",5635,speechiness_low|tempo_high
+0.0673342996442219,"frozenset({'energy_high', 'tempo_low'})",5621,energy_high|tempo_low
+0.06731034152301776,"frozenset({'tempo_high', 'liveness_very_low'})",5619,liveness_very_low|tempo_high
+0.0672983624624157,"frozenset({'tempo_high', 'speechiness_high'})",5618,speechiness_high|tempo_high
+0.0672983624624157,"frozenset({'acousticness_high', 'valence_high'})",5618,acousticness_high|valence_high
+0.0672983624624157,"frozenset({'energy_high', 'duration_ms_high'})",5618,duration_ms_high|energy_high
+0.06728638340181363,"frozenset({'acousticness_very_low', 'liveness_very_low'})",5617,acousticness_very_low|liveness_very_low
+0.0672624252806095,"frozenset({'energy_very_low', 'acousticness_very_high', 'valence_very_low', 'loudness_very_low'})",5615,acousticness_very_high|energy_very_low|loudness_very_low|valence_very_low
+0.06722648809880329,"frozenset({'speechiness_very_low', 'duration_ms_very_high'})",5612,duration_ms_very_high|speechiness_very_low
+0.06710669749278261,"frozenset({'loudness_high', 'tempo_very_high'})",5602,loudness_high|tempo_very_high
+0.06709471843218055,"frozenset({'valence_very_high', 'mode_1', 'danceability_very_high'})",5601,danceability_very_high|mode_1|valence_very_high
+0.06709471843218055,"frozenset({'energy_very_high', 'speechiness_very_high', 'loudness_very_high'})",5601,energy_very_high|loudness_very_high|speechiness_very_high
+0.06705878125037434,"frozenset({'liveness_low', 'duration_ms_very_low'})",5598,duration_ms_very_low|liveness_low
+0.06704680218977228,"frozenset({'valence_low', 'energy_low'})",5597,energy_low|valence_low
+0.0669270115837516,"frozenset({'energy_low', 'tempo_very_low'})",5587,energy_low|tempo_very_low
+0.06690305346254746,"frozenset({'energy_low', 'tempo_low'})",5585,energy_low|tempo_low
+0.06684315815953713,"frozenset({'danceability_low', 'acousticness_very_high'})",5580,acousticness_very_high|danceability_low
+0.066819200038333,"frozenset({'duration_ms_very_high', 'energy_high'})",5578,duration_ms_very_high|energy_high
+0.06672336755351645,"frozenset({'valence_low', 'acousticness_very_high'})",5570,acousticness_very_high|valence_low
+0.06671138849291439,"frozenset({'duration_ms_low', 'danceability_very_high'})",5569,danceability_very_high|duration_ms_low
+0.06663951412930198,"frozenset({'speechiness_high', 'valence_high'})",5563,speechiness_high|valence_high
+0.06663951412930198,"frozenset({'energy_low', 'duration_ms_very_high'})",5563,duration_ms_very_high|energy_low
+0.06662753506869991,"frozenset({'valence_high', 'liveness_high'})",5562,liveness_high|valence_high
+0.0665556607050875,"frozenset({'liveness_very_low', 'acousticness_low'})",5556,acousticness_low|liveness_very_low
+0.06651972352328131,"frozenset({'energy_high', 'speechiness_high'})",5553,energy_high|speechiness_high
+0.06650774446267924,"frozenset({'danceability_low', 'valence_high'})",5552,danceability_low|valence_high
+0.06650774446267924,"frozenset({'acousticness_very_low', 'mode_1', 'loudness_very_high'})",5552,acousticness_very_low|loudness_very_high|mode_1
+0.06649576540207718,"frozenset({'liveness_very_low', 'energy_high'})",5551,energy_high|liveness_very_low
+0.06647180728087303,"frozenset({'danceability_very_low', 'valence_very_low', 'loudness_very_low'})",5549,danceability_very_low|loudness_very_low|valence_very_low
+0.06642389103846476,"frozenset({'danceability_high', 'duration_ms_high'})",5545,danceability_high|duration_ms_high
+0.06638795385665856,"frozenset({'instrumentalness_medium', 'tempo_very_high'})",5542,instrumentalness_medium|tempo_very_high
+0.06631607949304616,"frozenset({'energy_very_high', 'loudness_high'})",5536,energy_very_high|loudness_high
+0.06626816325063789,"frozenset({'key_high', 'speechiness_very_high'})",5532,key_high|speechiness_very_high
+0.06622024700822962,"frozenset({'duration_ms_very_low', 'liveness_high'})",5528,duration_ms_very_low|liveness_high
+0.06622024700822962,"frozenset({'acousticness_very_low', 'key_high'})",5528,acousticness_very_low|key_high
+0.06611243546281101,"frozenset({'instrumentalness_high', 'acousticness_very_high', 'energy_very_low', 'loudness_very_low'})",5519,acousticness_very_high|energy_very_low|instrumentalness_high|loudness_very_low
+0.06608847734160687,"frozenset({'danceability_high', 'liveness_high'})",5517,danceability_high|liveness_high
+0.06606451922040274,"frozenset({'speechiness_high', 'acousticness_low'})",5515,acousticness_low|speechiness_high
+0.06605254015980067,"frozenset({'loudness_high', 'liveness_high'})",5514,liveness_high|loudness_high
+0.0660046239173924,"frozenset({'instrumentalness_medium', 'danceability_very_low'})",5510,danceability_very_low|instrumentalness_medium
+0.0659686867355862,"frozenset({'tempo_high', 'loudness_low'})",5507,loudness_low|tempo_high
+0.06595670767498413,"frozenset({'energy_high', 'liveness_high'})",5506,energy_high|liveness_high
+0.06593274955377999,"frozenset({'valence_low', 'loudness_low'})",5504,loudness_low|valence_low
+0.06590879143257586,"frozenset({'tempo_very_low', 'mode_1', 'energy_very_low'})",5502,energy_very_low|mode_1|tempo_very_low
+0.06590879143257586,"frozenset({'energy_low', 'loudness_low', 'mode_1'})",5502,energy_low|loudness_low|mode_1
+0.06590879143257586,"frozenset({'mode_1', 'valence_very_low', 'loudness_very_low'})",5502,loudness_very_low|mode_1|valence_very_low
+0.06588483331137172,"frozenset({'valence_very_high', 'liveness_high'})",5500,liveness_high|valence_very_high
+0.06587285425076965,"frozenset({'tempo_very_low', 'acousticness_very_high', 'mode_1'})",5499,acousticness_very_high|mode_1|tempo_very_low
+0.06581295894775932,"frozenset({'valence_very_high', 'liveness_very_high'})",5494,liveness_very_high|valence_very_high
+0.06580097988715725,"frozenset({'tempo_very_high', 'duration_ms_high'})",5493,duration_ms_high|tempo_very_high
+0.06576504270535105,"frozenset({'tempo_high', 'loudness_high'})",5490,loudness_high|tempo_high
+0.06574108458414692,"frozenset({'valence_low', 'instrumentalness_medium'})",5488,instrumentalness_medium|valence_low
+0.06564525209933036,"frozenset({'valence_very_high', 'energy_low'})",5480,energy_low|valence_very_high
+0.0656332730387283,"frozenset({'energy_very_high', 'mode_1', 'instrumentalness_low'})",5479,energy_very_high|instrumentalness_low|mode_1
+0.06562129397812623,"frozenset({'liveness_very_high', 'speechiness_high'})",5478,liveness_very_high|speechiness_high
+0.06553744055391177,"frozenset({'duration_ms_very_high', 'speechiness_high'})",5471,duration_ms_very_high|speechiness_high
+0.06550150337210556,"frozenset({'mode_1', 'acousticness_very_high', 'duration_ms_very_low'})",5468,acousticness_very_high|duration_ms_very_low|mode_1
+0.06546556619029936,"frozenset({'liveness_very_low', 'speechiness_low'})",5465,liveness_very_low|speechiness_low
+0.06544160806909523,"frozenset({'tempo_very_low', 'speechiness_very_high'})",5463,speechiness_very_high|tempo_very_low
+0.06542962900849315,"frozenset({'valence_very_high', 'tempo_very_high'})",5462,tempo_very_high|valence_very_high
+0.06539369182668694,"frozenset({'duration_ms_very_low', 'tempo_low'})",5459,duration_ms_very_low|tempo_low
+0.06536973370548281,"frozenset({'duration_ms_low', 'liveness_high'})",5457,duration_ms_low|liveness_high
+0.06533379652367662,"frozenset({'liveness_low', 'danceability_very_low'})",5454,danceability_very_low|liveness_low
+0.06533379652367662,"frozenset({'valence_very_high', 'energy_very_high'})",5454,energy_very_high|valence_very_high
+0.06532181746307454,"frozenset({'danceability_low', 'instrumentalness_medium'})",5453,danceability_low|instrumentalness_medium
+0.06530983840247248,"frozenset({'acousticness_low', 'tempo_very_high'})",5452,acousticness_low|tempo_very_high
+0.06528588028126835,"frozenset({'tempo_very_high', 'liveness_high'})",5450,liveness_high|tempo_very_high
+0.06527390122066627,"frozenset({'energy_low', 'liveness_very_low'})",5449,energy_low|liveness_very_low
+0.06526192216006421,"frozenset({'danceability_low', 'liveness_high'})",5448,danceability_low|liveness_high
+0.06526192216006421,"frozenset({'instrumentalness_medium', 'loudness_very_high'})",5448,instrumentalness_medium|loudness_very_high
+0.06523796403886008,"frozenset({'loudness_high', 'speechiness_very_high'})",5446,loudness_high|speechiness_very_high
+0.06517806873584973,"frozenset({'energy_very_high', 'key_high'})",5441,energy_very_high|key_high
+0.06516608967524767,"frozenset({'liveness_very_low', 'tempo_low'})",5440,liveness_very_low|tempo_low
+0.06510619437223733,"frozenset({'duration_ms_very_high', 'instrumentalness_medium'})",5435,duration_ms_very_high|instrumentalness_medium
+0.06505827812982906,"frozenset({'valence_low', 'tempo_very_high'})",5431,tempo_very_high|valence_low
+0.06495046658441045,"frozenset({'valence_low', 'duration_ms_very_high'})",5422,duration_ms_very_high|valence_low
+0.06493848752380839,"frozenset({'loudness_very_low', 'tempo_low'})",5421,loudness_very_low|tempo_low
+0.06490255034200218,"frozenset({'acousticness_very_high', 'mode_1', 'danceability_very_low'})",5418,acousticness_very_high|danceability_very_low|mode_1
+0.06489057128140012,"frozenset({'energy_low', 'liveness_high'})",5417,energy_low|liveness_high
+0.06486661316019597,"frozenset({'duration_ms_low', 'acousticness_high'})",5415,acousticness_high|duration_ms_low
+0.06479473879658357,"frozenset({'key_high', 'loudness_very_high'})",5409,key_high|loudness_very_high
+0.06477078067537943,"frozenset({'liveness_very_low', 'loudness_low'})",5407,liveness_very_low|loudness_low
+0.0647468225541753,"frozenset({'key_very_high', 'danceability_very_high'})",5405,danceability_very_high|key_very_high
+0.06472286443297116,"frozenset({'speechiness_very_low', 'tempo_high'})",5403,speechiness_very_low|tempo_high
+0.06469890631176703,"frozenset({'acousticness_low', 'liveness_high'})",5401,acousticness_low|liveness_high
+0.06466296912996083,"frozenset({'duration_ms_low', 'tempo_very_high'})",5398,duration_ms_low|tempo_very_high
+0.06461505288755255,"frozenset({'valence_very_high', 'tempo_high'})",5394,tempo_high|valence_very_high
+0.06459109476634842,"frozenset({'instrumentalness_medium', 'liveness_high'})",5392,instrumentalness_medium|liveness_high
+0.06455515758454222,"frozenset({'valence_high', 'tempo_low'})",5389,tempo_low|valence_high
+0.06454317852394015,"frozenset({'key_very_high', 'speechiness_very_high'})",5388,key_very_high|speechiness_very_high
+0.06453119946333809,"frozenset({'acousticness_high', 'liveness_high'})",5387,acousticness_high|liveness_high
+0.06451922040273601,"frozenset({'key_very_high', 'acousticness_low'})",5386,acousticness_low|key_very_high
+0.06439942979671534,"frozenset({'valence_low', 'tempo_very_low'})",5376,tempo_very_low|valence_low
+0.06429161825129673,"frozenset({'key_high', 'energy_high'})",5367,energy_high|key_high
+0.06429161825129673,"frozenset({'speechiness_very_low', 'acousticness_very_high', 'energy_very_low'})",5367,acousticness_very_high|energy_very_low|speechiness_very_low
+0.06427963919069467,"frozenset({'key_high', 'danceability_very_high'})",5366,danceability_very_high|key_high
+0.06425568106949053,"frozenset({'mode_1', 'duration_ms_very_low', 'energy_very_low'})",5364,duration_ms_very_low|energy_very_low|mode_1
+0.0642317229482864,"frozenset({'duration_ms_low', 'liveness_very_high'})",5362,duration_ms_low|liveness_very_high
+0.06421974388768432,"frozenset({'mode_1', 'danceability_very_low', 'instrumentalness_low'})",5361,danceability_very_low|instrumentalness_low|mode_1
+0.06421974388768432,"frozenset({'instrumentalness_medium', 'liveness_very_low'})",5361,instrumentalness_medium|liveness_very_low
+0.06418380670587813,"frozenset({'liveness_low', 'danceability_very_high'})",5358,danceability_very_high|liveness_low
+0.06418380670587813,"frozenset({'duration_ms_very_low', 'danceability_very_low'})",5358,danceability_very_low|duration_ms_very_low
+0.06417182764527606,"frozenset({'instrumentalness_medium', 'loudness_low'})",5357,instrumentalness_medium|loudness_low
+0.06414786952407192,"frozenset({'loudness_low', 'valence_high'})",5355,loudness_low|valence_high
+0.06414786952407192,"frozenset({'valence_very_high', 'loudness_low'})",5355,loudness_low|valence_very_high
+0.06409995328166365,"frozenset({'acousticness_high', 'liveness_low'})",5351,acousticness_high|liveness_low
+0.06407599516045952,"frozenset({'liveness_very_low', 'loudness_very_low'})",5349,liveness_very_low|loudness_very_low
+0.06402807891805125,"frozenset({'tempo_high', 'key_very_high'})",5345,key_very_high|tempo_high
+0.06399214173624504,"frozenset({'duration_ms_low', 'energy_very_high'})",5342,duration_ms_low|energy_very_high
+0.0639681836150409,"frozenset({'key_very_high', 'energy_high'})",5340,energy_high|key_very_high
+0.06395620455443884,"frozenset({'mode_1', 'danceability_very_low', 'loudness_very_low'})",5339,danceability_very_low|loudness_very_low|mode_1
+0.06395620455443884,"frozenset({'key_high', 'loudness_high'})",5339,key_high|loudness_high
+0.0638963092514285,"frozenset({'key_very_high', 'valence_high'})",5334,key_very_high|valence_high
+0.0638603720696223,"frozenset({'valence_very_high', 'speechiness_very_high'})",5331,speechiness_very_high|valence_very_high
+0.06384839300902023,"frozenset({'valence_high', 'duration_ms_very_low'})",5330,duration_ms_very_low|valence_high
+0.0638244348878161,"frozenset({'valence_low', 'loudness_high'})",5328,loudness_high|valence_low
+0.06371662334239749,"frozenset({'tempo_high', 'loudness_very_high'})",5319,loudness_very_high|tempo_high
+0.06371662334239749,"frozenset({'acousticness_high', 'duration_ms_high'})",5319,acousticness_high|duration_ms_high
+0.06370464428179543,"frozenset({'liveness_very_low', 'key_very_high'})",5318,key_very_high|liveness_very_low
+0.06369266522119335,"frozenset({'valence_high', 'duration_ms_high'})",5317,duration_ms_high|valence_high
+0.06368068616059129,"frozenset({'valence_very_high', 'key_very_high'})",5316,key_very_high|valence_very_high
+0.06368068616059129,"frozenset({'acousticness_low', 'tempo_low'})",5316,acousticness_low|tempo_low
+0.06366870709998922,"frozenset({'acousticness_very_low', 'key_very_high'})",5315,acousticness_very_low|key_very_high
+0.06365672803938716,"frozenset({'speechiness_high', 'duration_ms_very_low'})",5314,duration_ms_very_low|speechiness_high
+0.06363276991818302,"frozenset({'speechiness_very_low', 'acousticness_very_high', 'mode_1'})",5312,acousticness_very_high|mode_1|speechiness_very_low
+0.06362079085758095,"frozenset({'key_high', 'acousticness_low'})",5311,acousticness_low|key_high
+0.06358485367577475,"frozenset({'tempo_low', 'speechiness_low'})",5308,speechiness_low|tempo_low
+0.06358485367577475,"frozenset({'liveness_very_high', 'acousticness_low'})",5308,acousticness_low|liveness_very_high
+0.06358485367577475,"frozenset({'acousticness_very_low', 'liveness_high'})",5308,acousticness_very_low|liveness_high
+0.06352495837276441,"frozenset({'duration_ms_very_high', 'danceability_low'})",5303,danceability_low|duration_ms_very_high
+0.06350100025156027,"frozenset({'key_high', 'valence_high'})",5301,key_high|valence_high
+0.06347704213035614,"frozenset({'energy_very_high', 'key_very_high'})",5299,energy_very_high|key_very_high
+0.06346506306975407,"frozenset({'valence_very_high', 'speechiness_low'})",5298,speechiness_low|valence_very_high
+0.06342912588794787,"frozenset({'liveness_very_low', 'duration_ms_high'})",5295,duration_ms_high|liveness_very_low
+0.0634171468273458,"frozenset({'instrumentalness_medium', 'loudness_high'})",5294,instrumentalness_medium|loudness_high
+0.0634171468273458,"frozenset({'tempo_very_low', 'instrumentalness_high'})",5294,instrumentalness_high|tempo_very_low
+0.06335725152433547,"frozenset({'acousticness_very_high', 'loudness_low'})",5289,acousticness_very_high|loudness_low
+0.06323746091831478,"frozenset({'tempo_very_low', 'acousticness_very_high', 'loudness_very_low'})",5279,acousticness_very_high|loudness_very_low|tempo_very_low
+0.06323746091831478,"frozenset({'key_high', 'tempo_very_high'})",5279,key_high|tempo_very_high
+0.06322548185771272,"frozenset({'key_high', 'speechiness_high'})",5278,key_high|speechiness_high
+0.06316558655470238,"frozenset({'energy_very_low', 'tempo_low'})",5273,energy_very_low|tempo_low
+0.06314162843349824,"frozenset({'valence_high', 'tempo_very_high'})",5271,tempo_very_high|valence_high
+0.06312964937289618,"frozenset({'energy_very_high', 'duration_ms_very_high'})",5270,duration_ms_very_high|energy_very_high
+0.06312964937289618,"frozenset({'energy_low', 'acousticness_high', 'mode_1'})",5270,acousticness_high|energy_low|mode_1
+0.06312964937289618,"frozenset({'duration_ms_low', 'tempo_low'})",5270,duration_ms_low|tempo_low
+0.06311767031229411,"frozenset({'instrumentalness_medium', 'key_high'})",5269,instrumentalness_medium|key_high
+0.06309371219108997,"frozenset({'liveness_very_low', 'energy_very_low'})",5267,energy_very_low|liveness_very_low
+0.06305777500928378,"frozenset({'liveness_high', 'duration_ms_high'})",5264,duration_ms_high|liveness_high
+0.06298590064567136,"frozenset({'key_very_high', 'speechiness_high'})",5258,key_very_high|speechiness_high
+0.06298590064567136,"frozenset({'loudness_high', 'speechiness_high'})",5258,loudness_high|speechiness_high
+0.06294996346386517,"frozenset({'duration_ms_very_high', 'key_high'})",5255,duration_ms_very_high|key_high
+0.06294996346386517,"frozenset({'mode_1', 'acousticness_very_high', 'liveness_low'})",5255,acousticness_very_high|liveness_low|mode_1
+0.06294996346386517,"frozenset({'liveness_very_high', 'danceability_high'})",5255,danceability_high|liveness_very_high
+0.06291402628205896,"frozenset({'speechiness_very_low', 'loudness_high'})",5252,loudness_high|speechiness_very_low
+0.06279423567603828,"frozenset({'instrumentalness_medium', 'key_very_high'})",5242,instrumentalness_medium|key_very_high
+0.06279423567603828,"frozenset({'key_very_high', 'loudness_high'})",5242,key_very_high|loudness_high
+0.06278225661543622,"frozenset({'key_high', 'liveness_low'})",5241,key_high|liveness_low
+0.06275829849423208,"frozenset({'instrumentalness_medium', 'acousticness_low'})",5239,acousticness_low|instrumentalness_medium
+0.06274631943363002,"frozenset({'valence_very_high', 'instrumentalness_medium'})",5238,instrumentalness_medium|valence_very_high
+0.06273434037302794,"frozenset({'tempo_very_low', 'loudness_low'})",5237,loudness_low|tempo_very_low
+0.0627103822518238,"frozenset({'duration_ms_low', 'danceability_low'})",5235,danceability_low|duration_ms_low
+0.06268642413061967,"frozenset({'duration_ms_very_high', 'key_very_high'})",5233,duration_ms_very_high|key_very_high
+0.06266246600941554,"frozenset({'key_very_high', 'loudness_low'})",5231,key_very_high|loudness_low
+0.0626385078882114,"frozenset({'danceability_low', 'loudness_high'})",5229,danceability_low|loudness_high
+0.06261454976700727,"frozenset({'liveness_very_high', 'duration_ms_very_low'})",5227,duration_ms_very_low|liveness_very_high
+0.06261454976700727,"frozenset({'liveness_low', 'tempo_low'})",5227,liveness_low|tempo_low
+0.06261454976700727,"frozenset({'key_high', 'duration_ms_high'})",5227,duration_ms_high|key_high
+0.06260257070640521,"frozenset({'energy_very_low', 'loudness_very_low', 'speechiness_low'})",5226,energy_very_low|loudness_very_low|speechiness_low
+0.06259059164580313,"frozenset({'acousticness_very_high', 'duration_ms_very_low', 'loudness_very_low'})",5225,acousticness_very_high|duration_ms_very_low|loudness_very_low
+0.06257861258520107,"frozenset({'valence_low', 'duration_ms_low'})",5224,duration_ms_low|valence_low
+0.062566633524599,"frozenset({'loudness_high', 'tempo_low'})",5223,loudness_high|tempo_low
+0.06255465446399694,"frozenset({'danceability_high', 'loudness_very_high'})",5222,danceability_high|loudness_very_high
+0.06254267540339487,"frozenset({'key_high', 'instrumentalness_high'})",5221,instrumentalness_high|key_high
+0.06251871728219073,"frozenset({'energy_very_high', 'liveness_high'})",5219,energy_very_high|liveness_high
+0.062494759160986596,"frozenset({'energy_high', 'tempo_very_high'})",5217,energy_high|tempo_very_high
+0.062494759160986596,"frozenset({'duration_ms_low', 'speechiness_high'})",5217,duration_ms_low|speechiness_high
+0.06247080103978246,"frozenset({'loudness_low', 'liveness_high'})",5215,liveness_high|loudness_low
+0.06244684291857833,"frozenset({'liveness_high', 'tempo_low'})",5213,liveness_high|tempo_low
+0.06242288479737419,"frozenset({'tempo_high', 'valence_very_low'})",5211,tempo_high|valence_very_low
+0.062410905736772125,"frozenset({'duration_ms_very_high', 'liveness_low'})",5210,duration_ms_very_high|liveness_low
+0.06235101043376178,"frozenset({'key_very_high', 'danceability_high'})",5205,danceability_high|key_very_high
+0.062339031373159715,"frozenset({'loudness_low', 'duration_ms_high'})",5204,duration_ms_high|loudness_low
+0.062339031373159715,"frozenset({'acousticness_very_high', 'energy_very_low', 'speechiness_low'})",5204,acousticness_very_high|energy_very_low|speechiness_low
+0.06231507325195558,"frozenset({'energy_very_high', 'valence_high'})",5202,energy_very_high|valence_high
+0.06226715700954731,"frozenset({'instrumentalness_medium', 'speechiness_high'})",5198,instrumentalness_medium|speechiness_high
+0.062255177948945244,"frozenset({'acousticness_high', 'speechiness_very_high'})",5197,acousticness_high|speechiness_very_high
+0.06223121982774111,"frozenset({'valence_low', 'tempo_high'})",5195,tempo_high|valence_low
+0.062207261706536975,"frozenset({'acousticness_very_high', 'tempo_low'})",5193,acousticness_very_high|tempo_low
+0.06217132452473077,"frozenset({'acousticness_high', 'liveness_very_low'})",5190,acousticness_high|liveness_very_low
+0.06214736640352664,"frozenset({'liveness_very_low', 'key_high'})",5188,key_high|liveness_very_low
+0.06213538734292457,"frozenset({'speechiness_very_low', 'mode_1', 'key_very_low'})",5187,key_very_low|mode_1|speechiness_very_low
+0.06207549203991423,"frozenset({'speechiness_very_low', 'danceability_very_low'})",5182,danceability_very_low|speechiness_very_low
+0.06205153391871009,"frozenset({'acousticness_high', 'duration_ms_very_low'})",5180,acousticness_high|duration_ms_very_low
+0.06205153391871009,"frozenset({'key_high', 'danceability_high'})",5180,danceability_high|key_high
+0.06201559673690389,"frozenset({'liveness_low', 'duration_ms_high'})",5177,duration_ms_high|liveness_low
+0.062003617676301824,"frozenset({'energy_low', 'duration_ms_high'})",5176,duration_ms_high|energy_low
+0.06196768049449562,"frozenset({'duration_ms_low', 'key_high'})",5173,duration_ms_low|key_high
+0.061907785191485286,"frozenset({'energy_low', 'key_very_high'})",5168,energy_low|key_very_high
+0.06189580613088322,"frozenset({'danceability_high', 'liveness_low'})",5167,danceability_high|liveness_low
+0.06184788988847494,"frozenset({'energy_low', 'duration_ms_low'})",5163,duration_ms_low|energy_low
+0.061835910827872875,"frozenset({'valence_very_high', 'acousticness_high', 'instrumentalness_low'})",5162,acousticness_high|instrumentalness_low|valence_very_high
+0.06182393176727081,"frozenset({'tempo_very_low', 'speechiness_low'})",5161,speechiness_low|tempo_very_low
+0.06182393176727081,"frozenset({'acousticness_very_low', 'energy_very_high', 'danceability_very_low'})",5161,acousticness_very_low|danceability_very_low|energy_very_high
+0.06181195270666874,"frozenset({'danceability_low', 'key_high'})",5160,danceability_low|key_high
+0.06176403646426047,"frozenset({'instrumentalness_medium', 'valence_high'})",5156,instrumentalness_medium|valence_high
+0.061752057403658404,"frozenset({'tempo_high', 'key_high'})",5155,key_high|tempo_high
+0.061680183040046,"frozenset({'energy_low', 'mode_1', 'speechiness_very_low'})",5149,energy_low|mode_1|speechiness_very_low
+0.061680183040046,"frozenset({'key_very_high', 'loudness_very_high'})",5149,key_very_high|loudness_very_high
+0.061680183040046,"frozenset({'duration_ms_very_high', 'loudness_high'})",5149,duration_ms_very_high|loudness_high
+0.0616442458582398,"frozenset({'valence_very_high', 'key_high'})",5146,key_high|valence_very_high
+0.06159632961583153,"frozenset({'energy_very_high', 'valence_very_low'})",5142,energy_very_high|valence_very_low
+0.061584350555229456,"frozenset({'duration_ms_low', 'key_very_high'})",5141,duration_ms_low|key_very_high
+0.061548413373423254,"frozenset({'valence_low', 'key_high'})",5138,key_high|valence_low
+0.06153643431282119,"frozenset({'valence_low', 'liveness_high'})",5137,liveness_high|valence_low
+0.06151247619161705,"frozenset({'tempo_low', 'duration_ms_high'})",5135,duration_ms_high|tempo_low
+0.06151247619161705,"frozenset({'acousticness_very_low', 'valence_high'})",5135,acousticness_very_low|valence_high
+0.06151247619161705,"frozenset({'acousticness_high', 'key_very_high'})",5135,acousticness_high|key_very_high
+0.061500497131014985,"frozenset({'speechiness_low', 'duration_ms_high'})",5134,duration_ms_high|speechiness_low
+0.06148851807041292,"frozenset({'liveness_very_high', 'duration_ms_high'})",5133,duration_ms_high|liveness_very_high
+0.06147653900981085,"frozenset({'key_very_high', 'instrumentalness_high'})",5132,instrumentalness_high|key_very_high
+0.061452580888606716,"frozenset({'valence_low', 'speechiness_very_high'})",5130,speechiness_very_high|valence_low
+0.06140466464619845,"frozenset({'danceability_high', 'speechiness_low'})",5126,danceability_high|speechiness_low
+0.06138070652499431,"frozenset({'liveness_very_low', 'loudness_high'})",5124,liveness_very_low|loudness_high
+0.06138070652499431,"frozenset({'tempo_high', 'duration_ms_high'})",5124,duration_ms_high|tempo_high
+0.061368727464392245,"frozenset({'energy_high', 'speechiness_very_high'})",5123,energy_high|speechiness_very_high
+0.06135674840379018,"frozenset({'key_very_high', 'tempo_very_high'})",5122,key_very_high|tempo_very_high
+0.06134476934318811,"frozenset({'tempo_very_low', 'key_high'})",5121,key_high|tempo_very_low
+0.06134476934318811,"frozenset({'duration_ms_very_high', 'liveness_very_high'})",5121,duration_ms_very_high|liveness_very_high
+0.06132081122198397,"frozenset({'duration_ms_low', 'instrumentalness_medium'})",5119,duration_ms_low|instrumentalness_medium
+0.061296853100779834,"frozenset({'tempo_very_low', 'duration_ms_high'})",5117,duration_ms_high|tempo_very_low
+0.061296853100779834,"frozenset({'danceability_high', 'duration_ms_very_low'})",5117,danceability_high|duration_ms_very_low
+0.0612728949795757,"frozenset({'instrumentalness_medium', 'speechiness_low'})",5115,instrumentalness_medium|speechiness_low
+0.0612728949795757,"frozenset({'key_high', 'liveness_high'})",5115,key_high|liveness_high
+0.0612728949795757,"frozenset({'key_very_high', 'liveness_very_high'})",5115,key_very_high|liveness_very_high
+0.061248936858371565,"frozenset({'instrumentalness_medium', 'energy_high'})",5113,energy_high|instrumentalness_medium
+0.061248936858371565,"frozenset({'key_high', 'liveness_very_high'})",5113,key_high|liveness_very_high
+0.061248936858371565,"frozenset({'duration_ms_low', 'tempo_high'})",5113,duration_ms_low|tempo_high
+0.0612369577977695,"frozenset({'key_very_low', 'mode_1', 'duration_ms_very_low'})",5112,duration_ms_very_low|key_very_low|mode_1
+0.0612369577977695,"frozenset({'acousticness_high', 'key_high'})",5112,acousticness_high|key_high
+0.06117706249475916,"frozenset({'danceability_low', 'tempo_very_low'})",5107,danceability_low|tempo_very_low
+0.06112914625235089,"frozenset({'key_very_high', 'duration_ms_high'})",5103,duration_ms_high|key_very_high
+0.06112914625235089,"frozenset({'tempo_high', 'liveness_low'})",5103,liveness_low|tempo_high
+0.061117167191748825,"frozenset({'key_high', 'tempo_low'})",5102,key_high|tempo_low
+0.061117167191748825,"frozenset({'duration_ms_very_high', 'mode_1', 'instrumentalness_low'})",5102,duration_ms_very_high|instrumentalness_low|mode_1
+0.06110518813114676,"frozenset({'valence_very_high', 'energy_high', 'instrumentalness_low'})",5101,energy_high|instrumentalness_low|valence_very_high
+0.06109320907054469,"frozenset({'energy_very_high', 'mode_1', 'speechiness_very_high'})",5100,energy_very_high|mode_1|speechiness_very_high
+0.06103331376753435,"frozenset({'instrumentalness_medium', 'liveness_very_high'})",5095,instrumentalness_medium|liveness_very_high
+0.06100935564633021,"frozenset({'acousticness_very_low', 'key_very_low', 'mode_1'})",5093,acousticness_very_low|key_very_low|mode_1
+0.060997376585728146,"frozenset({'mode_1', 'duration_ms_very_low', 'loudness_very_low'})",5092,duration_ms_very_low|loudness_very_low|mode_1
+0.06097341846452401,"frozenset({'tempo_high', 'liveness_very_high'})",5090,liveness_very_high|tempo_high
+0.060961439403921944,"frozenset({'duration_ms_low', 'tempo_very_low'})",5089,duration_ms_low|tempo_very_low
+0.060913523161513675,"frozenset({'speechiness_high', 'danceability_very_low'})",5085,danceability_very_low|speechiness_high
+0.06088956504030954,"frozenset({'tempo_very_low', 'valence_high'})",5083,tempo_very_low|valence_high
+0.06087758597970747,"frozenset({'key_very_low', 'mode_1', 'energy_very_low'})",5082,energy_very_low|key_very_low|mode_1
+0.060865606919105406,"frozenset({'mode_1', 'key_very_low', 'danceability_very_low'})",5081,danceability_very_low|key_very_low|mode_1
+0.06084164879790127,"frozenset({'instrumentalness_medium', 'tempo_high'})",5079,instrumentalness_medium|tempo_high
+0.060829669737299204,"frozenset({'loudness_low', 'energy_very_low'})",5078,energy_very_low|loudness_low
+0.06080571161609507,"frozenset({'valence_low', 'loudness_very_low'})",5076,loudness_very_low|valence_low
+0.06080571161609507,"frozenset({'acousticness_high', 'tempo_very_high'})",5076,acousticness_high|tempo_very_high
+0.06076977443428886,"frozenset({'valence_low', 'key_very_high'})",5073,key_very_high|valence_low
+0.06075779537368679,"frozenset({'key_high', 'valence_very_low'})",5072,key_high|valence_very_low
+0.06073383725248266,"frozenset({'tempo_high', 'valence_high'})",5070,tempo_high|valence_high
+0.06072185819188059,"frozenset({'key_very_high', 'tempo_low'})",5069,key_very_high|tempo_low
+0.060661962888870255,"frozenset({'duration_ms_low', 'speechiness_low'})",5064,duration_ms_low|speechiness_low
+0.06059008852525785,"frozenset({'tempo_high', 'liveness_high'})",5058,liveness_high|tempo_high
+0.060578109464655784,"frozenset({'energy_very_high', 'tempo_very_high', 'loudness_very_high'})",5057,energy_very_high|loudness_very_high|tempo_very_high
+0.06056613040405372,"frozenset({'tempo_very_low', 'liveness_very_high'})",5056,liveness_very_high|tempo_very_low
+0.06051821416164544,"frozenset({'energy_low', 'key_high'})",5052,energy_low|key_high
+0.060458318858635104,"frozenset({'key_very_high', 'liveness_high'})",5047,key_very_high|liveness_high
+0.06044633979803304,"frozenset({'key_very_low', 'mode_1', 'loudness_very_low'})",5046,key_very_low|loudness_very_low|mode_1
+0.06043436073743097,"frozenset({'valence_low', 'liveness_very_high'})",5045,liveness_very_high|valence_low
+0.0604223816768289,"frozenset({'speechiness_high', 'tempo_low'})",5044,speechiness_high|tempo_low
+0.0603505073132165,"frozenset({'key_very_low', 'liveness_very_high', 'mode_1'})",5038,key_very_low|liveness_very_high|mode_1
+0.06033852825261443,"frozenset({'danceability_very_low', 'liveness_high'})",5037,danceability_very_low|liveness_high
+0.0603145701314103,"frozenset({'acousticness_very_high', 'liveness_low', 'loudness_very_low'})",5035,acousticness_very_high|liveness_low|loudness_very_low
+0.06030259107080823,"frozenset({'instrumentalness_medium', 'liveness_low'})",5034,instrumentalness_medium|liveness_low
+0.06026665388900202,"frozenset({'danceability_low', 'liveness_low'})",5031,danceability_low|liveness_low
+0.06026665388900202,"frozenset({'key_high', 'loudness_low'})",5031,key_high|loudness_low
+0.06024269576779789,"frozenset({'loudness_low', 'speechiness_low'})",5029,loudness_low|speechiness_low
+0.06024269576779789,"frozenset({'key_very_high', 'duration_ms_very_low'})",5029,duration_ms_very_low|key_very_high
+0.060206758585991685,"frozenset({'key_very_high', 'liveness_low'})",5026,key_very_high|liveness_low
+0.060206758585991685,"frozenset({'duration_ms_low', 'liveness_very_low'})",5026,duration_ms_low|liveness_very_low
+0.060206758585991685,"frozenset({'liveness_high', 'speechiness_low'})",5026,liveness_high|speechiness_low
+0.06019477952538962,"frozenset({'loudness_low', 'acousticness_low'})",5025,acousticness_low|loudness_low
+0.06019477952538962,"frozenset({'duration_ms_low', 'liveness_low'})",5025,duration_ms_low|liveness_low
+0.06017082140418548,"frozenset({'energy_high', 'loudness_high', 'instrumentalness_low'})",5023,energy_high|instrumentalness_low|loudness_high
+0.06017082140418548,"frozenset({'liveness_very_low', 'loudness_very_high'})",5023,liveness_very_low|loudness_very_high
+0.060158842343583416,"frozenset({'speechiness_high', 'liveness_high'})",5022,liveness_high|speechiness_high
+0.06013488422237928,"frozenset({'speechiness_very_high', 'liveness_high'})",5020,liveness_high|speechiness_very_high
+0.06013488422237928,"frozenset({'mode_0', 'speechiness_very_high', 'instrumentalness_low'})",5020,instrumentalness_low|mode_0|speechiness_very_high
+0.060122905161777214,"frozenset({'key_very_high', 'speechiness_low'})",5019,key_very_high|speechiness_low
+0.06009894704057308,"frozenset({'liveness_very_low', 'tempo_very_high'})",5017,liveness_very_low|tempo_very_high
+0.06006300985876688,"frozenset({'key_high', 'speechiness_low'})",5014,key_high|speechiness_low
+0.06005103079816481,"frozenset({'danceability_very_low', 'duration_ms_high'})",5013,danceability_very_low|duration_ms_high
+0.05996717737395033,"frozenset({'duration_ms_very_high', 'tempo_very_high'})",5006,duration_ms_very_high|tempo_very_high
+0.05996717737395033,"frozenset({'energy_high', 'loudness_low'})",5006,energy_high|loudness_low
+0.059955198313348265,"frozenset({'duration_ms_very_high', 'tempo_low'})",5005,duration_ms_very_high|tempo_low
+0.05991926113154206,"frozenset({'tempo_very_low', 'liveness_high'})",5002,liveness_high|tempo_very_low
+0.05991926113154206,"frozenset({'key_high', 'duration_ms_very_low'})",5002,duration_ms_very_low|key_high
+0.05989530301033793,"frozenset({'instrumentalness_high', 'mode_1', 'danceability_very_low'})",5000,danceability_very_low|instrumentalness_high|mode_1
+0.05989530301033793,"frozenset({'instrumentalness_medium', 'valence_very_low'})",5000,instrumentalness_medium|valence_very_low
+0.059871344889133794,"frozenset({'valence_low', 'danceability_high'})",4998,danceability_high|valence_low
+0.05983540770732759,"frozenset({'energy_very_high', 'liveness_very_high', 'mode_1'})",4995,energy_very_high|liveness_very_high|mode_1
+0.059775512404317256,"frozenset({'duration_ms_very_high', 'acousticness_low'})",4990,acousticness_low|duration_ms_very_high
+0.05976353334371519,"frozenset({'liveness_very_high', 'tempo_low'})",4989,liveness_very_high|tempo_low
+0.05976353334371519,"frozenset({'valence_very_high', 'mode_1', 'key_very_low'})",4989,key_very_low|mode_1|valence_very_high
+0.05976353334371519,"frozenset({'key_very_low', 'acousticness_very_high', 'mode_1'})",4989,acousticness_very_high|key_very_low|mode_1
+0.05975155428311312,"frozenset({'speechiness_very_low', 'loudness_low', 'mode_1'})",4988,loudness_low|mode_1|speechiness_very_low
+0.05971561710130691,"frozenset({'instrumentalness_high', 'tempo_low'})",4985,instrumentalness_high|tempo_low
+0.05967967991950071,"frozenset({'energy_low', 'tempo_high'})",4982,energy_low|tempo_high
+0.059667700858898644,"frozenset({'danceability_low', 'loudness_low'})",4981,danceability_low|loudness_low
+0.059655721798296577,"frozenset({'danceability_low', 'speechiness_low'})",4980,danceability_low|speechiness_low
+0.059655721798296577,"frozenset({'tempo_very_low', 'mode_1', 'loudness_very_low'})",4980,loudness_very_low|mode_1|tempo_very_low
+0.05964374273769451,"frozenset({'mode_1', 'liveness_low', 'loudness_very_low'})",4979,liveness_low|loudness_very_low|mode_1
+0.059619784616490375,"frozenset({'speechiness_very_low', 'liveness_very_low'})",4977,liveness_very_low|speechiness_very_low
+0.05955988931348004,"frozenset({'valence_low', 'loudness_very_high'})",4972,loudness_very_high|valence_low
+0.05955988931348004,"frozenset({'duration_ms_very_low', 'tempo_very_high'})",4972,duration_ms_very_low|tempo_very_high
+0.059535931192275904,"frozenset({'key_very_low', 'mode_1', 'tempo_very_high'})",4970,key_very_low|mode_1|tempo_very_high
+0.059535931192275904,"frozenset({'tempo_very_low', 'key_very_high'})",4970,key_very_high|tempo_very_low
+0.059488014949867635,"frozenset({'liveness_very_low', 'danceability_high'})",4966,danceability_high|liveness_very_low
+0.05944009870745936,"frozenset({'instrumentalness_medium', 'danceability_high'})",4962,danceability_high|instrumentalness_medium
+0.05940416152565316,"frozenset({'acousticness_very_high', 'danceability_very_low', 'valence_very_low'})",4959,acousticness_very_high|danceability_very_low|valence_very_low
+0.05939218246505109,"frozenset({'liveness_very_low', 'valence_high'})",4958,liveness_very_low|valence_high
+0.05938020340444902,"frozenset({'instrumentalness_medium', 'danceability_very_high'})",4957,danceability_very_high|instrumentalness_medium
+0.05938020340444902,"frozenset({'loudness_low', 'duration_ms_very_low'})",4957,duration_ms_very_low|loudness_low
+0.05938020340444902,"frozenset({'instrumentalness_low', 'acousticness_low', 'loudness_very_high'})",4957,acousticness_low|instrumentalness_low|loudness_very_high
+0.05935624528324489,"frozenset({'valence_low', 'energy_very_high'})",4955,energy_very_high|valence_low
+0.059320308101438686,"frozenset({'key_very_high', 'danceability_very_low'})",4952,danceability_very_low|key_very_high
+0.05930832904083662,"frozenset({'key_high', 'danceability_very_low'})",4951,danceability_very_low|key_high
+0.059236454677224215,"frozenset({'liveness_very_low', 'valence_very_low'})",4945,liveness_very_low|valence_very_low
+0.05922447561662215,"frozenset({'danceability_low', 'key_very_high'})",4944,danceability_low|key_very_high
+0.059200517495418006,"frozenset({'danceability_low', 'valence_very_low'})",4942,danceability_low|valence_very_low
+0.059164580313611805,"frozenset({'valence_very_low', 'duration_ms_high'})",4939,duration_ms_high|valence_very_low
+0.05915260125300974,"frozenset({'energy_very_high', 'liveness_very_high', 'loudness_very_high'})",4938,energy_very_high|liveness_very_high|loudness_very_high
+0.0591286431318056,"frozenset({'danceability_low', 'energy_very_low'})",4936,danceability_low|energy_very_low
+0.05910468501060147,"frozenset({'danceability_very_low', 'loudness_very_high'})",4934,danceability_very_low|loudness_very_high
+0.059080726889397334,"frozenset({'key_very_low', 'mode_1', 'tempo_low'})",4932,key_very_low|mode_1|tempo_low
+0.05904478970759113,"frozenset({'energy_low', 'loudness_low', 'instrumentalness_low'})",4929,energy_low|instrumentalness_low|loudness_low
+0.059020831586387,"frozenset({'energy_low', 'duration_ms_very_low'})",4927,duration_ms_very_low|energy_low
+0.05900885252578493,"frozenset({'acousticness_very_high', 'mode_1', 'valence_very_low'})",4926,acousticness_very_high|mode_1|valence_very_low
+0.05900885252578493,"frozenset({'energy_high', 'loudness_high', 'mode_1'})",4926,energy_high|loudness_high|mode_1
+0.05899687346518286,"frozenset({'instrumentalness_high', 'danceability_very_high'})",4925,danceability_very_high|instrumentalness_high
+0.05899687346518286,"frozenset({'duration_ms_low', 'speechiness_very_low'})",4925,duration_ms_low|speechiness_very_low
+0.058984894404580795,"frozenset({'key_very_low', 'liveness_very_low', 'mode_1'})",4924,key_very_low|liveness_very_low|mode_1
+0.05892499910157045,"frozenset({'danceability_low', 'speechiness_high'})",4919,danceability_low|speechiness_high
+0.05890104098036632,"frozenset({'valence_low', 'speechiness_high'})",4917,speechiness_high|valence_low
+0.05890104098036632,"frozenset({'key_very_low', 'mode_1', 'valence_very_low'})",4917,key_very_low|mode_1|valence_very_low
+0.05888906191976425,"frozenset({'duration_ms_very_high', 'acousticness_high'})",4916,acousticness_high|duration_ms_very_high
+0.05888906191976425,"frozenset({'key_very_low', 'loudness_low', 'mode_1'})",4916,key_very_low|loudness_low|mode_1
+0.05884114567735598,"frozenset({'duration_ms_low', 'mode_1', 'key_very_low'})",4912,duration_ms_low|key_very_low|mode_1
+0.05879322943494771,"frozenset({'loudness_high', 'speechiness_low'})",4908,loudness_high|speechiness_low
+0.058733334131937376,"frozenset({'energy_very_high', 'mode_1', 'key_very_low'})",4903,energy_very_high|key_very_low|mode_1
+0.05872135507133531,"frozenset({'acousticness_high', 'liveness_very_high'})",4902,acousticness_high|liveness_very_high
+0.058697396950131174,"frozenset({'mode_1', 'tempo_very_high', 'danceability_very_low'})",4900,danceability_very_low|mode_1|tempo_very_high
+0.058613543525916696,"frozenset({'acousticness_very_low', 'energy_very_high', 'speechiness_very_high'})",4893,acousticness_very_low|energy_very_high|speechiness_very_high
+0.05850573198049809,"frozenset({'key_very_high', 'loudness_very_low'})",4884,key_very_high|loudness_very_low
+0.05843385761688569,"frozenset({'valence_low', 'tempo_low'})",4878,tempo_low|valence_low
+0.05843385761688569,"frozenset({'key_high', 'loudness_very_low'})",4878,key_high|loudness_very_low
+0.05843385761688569,"frozenset({'valence_very_high', 'duration_ms_high'})",4878,duration_ms_high|valence_very_high
+0.05842187855628361,"frozenset({'danceability_low', 'energy_high'})",4877,danceability_low|energy_high
+0.058409899495681546,"frozenset({'valence_low', 'key_very_low', 'mode_1'})",4876,key_very_low|mode_1|valence_low
+0.058373962313875344,"frozenset({'key_very_low', 'energy_very_low', 'loudness_very_low'})",4873,energy_very_low|key_very_low|loudness_very_low
+0.05836198325327328,"frozenset({'duration_ms_very_low', 'speechiness_low'})",4872,duration_ms_very_low|speechiness_low
+0.05835000419267121,"frozenset({'loudness_low', 'instrumentalness_high'})",4871,instrumentalness_high|loudness_low
+0.05833802513206914,"frozenset({'energy_very_high', 'mode_0', 'loudness_very_high'})",4870,energy_very_high|loudness_very_high|mode_0
+0.058278129829058806,"frozenset({'speechiness_high', 'duration_ms_high'})",4865,duration_ms_high|speechiness_high
+0.0581703182836402,"frozenset({'valence_very_low', 'tempo_low'})",4856,tempo_low|valence_very_low
+0.05800261143521125,"frozenset({'danceability_low', 'mode_1', 'key_very_low'})",4842,danceability_low|key_very_low|mode_1
+0.057990632374609184,"frozenset({'speechiness_very_low', 'key_very_high'})",4841,key_very_high|speechiness_very_low
+0.05790677895039471,"frozenset({'key_very_low', 'mode_1', 'speechiness_very_high'})",4834,key_very_low|mode_1|speechiness_very_high
+0.05789479988979264,"frozenset({'energy_high', 'acousticness_low', 'instrumentalness_low'})",4833,acousticness_low|energy_high|instrumentalness_low
+0.05789479988979264,"frozenset({'speechiness_very_low', 'key_high'})",4833,key_high|speechiness_very_low
+0.05788282082919057,"frozenset({'energy_low', 'speechiness_very_high'})",4832,energy_low|speechiness_very_high
+0.05784688364738437,"frozenset({'acousticness_very_low', 'energy_very_high', 'mode_0'})",4829,acousticness_very_low|energy_very_high|mode_0
+0.057822925526180236,"frozenset({'key_very_low', 'instrumentalness_high', 'mode_1'})",4827,instrumentalness_high|key_very_low|mode_1
+0.057822925526180236,"frozenset({'tempo_very_low', 'liveness_very_low'})",4827,liveness_very_low|tempo_very_low
+0.05781094646557817,"frozenset({'key_very_low', 'tempo_high', 'mode_1'})",4826,key_very_low|mode_1|tempo_high
+0.0577630302231699,"frozenset({'speechiness_very_low', 'energy_very_low', 'loudness_very_low'})",4822,energy_very_low|loudness_very_low|speechiness_very_low
+0.05775105116256783,"frozenset({'key_very_low', 'mode_1', 'liveness_low'})",4821,key_very_low|liveness_low|mode_1
+0.05771511398076163,"frozenset({'energy_very_low', 'danceability_very_low', 'valence_very_low', 'loudness_very_low'})",4818,danceability_very_low|energy_very_low|loudness_very_low|valence_very_low
+0.057691155859557496,"frozenset({'key_low', 'mode_1', 'instrumentalness_low'})",4816,instrumentalness_low|key_low|mode_1
+0.057655218677751294,"frozenset({'instrumentalness_high', 'danceability_very_low', 'loudness_very_low'})",4813,danceability_very_low|instrumentalness_high|loudness_very_low
+0.057655218677751294,"frozenset({'danceability_low', 'tempo_high'})",4813,danceability_low|tempo_high
+0.05760730243534302,"frozenset({'key_very_low', 'danceability_high', 'mode_1'})",4809,danceability_high|key_very_low|mode_1
+0.05746355370811821,"frozenset({'instrumentalness_low', 'energy_high', 'loudness_very_high'})",4797,energy_high|instrumentalness_low|loudness_very_high
+0.05746355370811821,"frozenset({'key_high', 'energy_very_low'})",4797,energy_very_low|key_high
+0.057439595586914076,"frozenset({'speechiness_very_low', 'acousticness_high', 'mode_1'})",4795,acousticness_high|mode_1|speechiness_very_low
+0.05742761652631201,"frozenset({'liveness_very_low', 'speechiness_very_high'})",4794,liveness_very_low|speechiness_very_high
+0.05741563746570994,"frozenset({'key_very_low', 'tempo_very_low', 'mode_1'})",4793,key_very_low|mode_1|tempo_very_low
+0.05737970028390374,"frozenset({'key_low', 'acousticness_very_high'})",4790,acousticness_very_high|key_low
+0.057367721223301665,"frozenset({'key_very_low', 'mode_1', 'danceability_very_high'})",4789,danceability_very_high|key_very_low|mode_1
+0.05734376310209753,"frozenset({'valence_low', 'instrumentalness_high'})",4787,instrumentalness_high|valence_low
+0.057331784041495464,"frozenset({'valence_very_high', 'energy_high', 'mode_1'})",4786,energy_high|mode_1|valence_very_high
+0.05730782592029133,"frozenset({'acousticness_very_low', 'speechiness_low'})",4784,acousticness_very_low|speechiness_low
+0.05729584685968926,"frozenset({'key_very_low', 'loudness_high', 'mode_1'})",4783,key_very_low|loudness_high|mode_1
+0.05729584685968926,"frozenset({'key_very_high', 'valence_very_low'})",4783,key_very_high|valence_very_low
+0.05729584685968926,"frozenset({'valence_low', 'speechiness_low'})",4783,speechiness_low|valence_low
+0.05729584685968926,"frozenset({'instrumentalness_medium', 'loudness_very_low'})",4783,instrumentalness_medium|loudness_very_low
+0.057235951556678925,"frozenset({'instrumentalness_high', 'mode_1', 'energy_very_low'})",4778,energy_very_low|instrumentalness_high|mode_1
+0.057235951556678925,"frozenset({'key_very_low', 'energy_high', 'mode_1'})",4778,energy_high|key_very_low|mode_1
+0.05722397249607686,"frozenset({'acousticness_very_high', 'key_very_low', 'energy_very_low'})",4777,acousticness_very_high|energy_very_low|key_very_low
+0.05721199343547479,"frozenset({'key_very_low', 'mode_1', 'loudness_very_high'})",4776,key_very_low|loudness_very_high|mode_1
+0.057200014374872724,"frozenset({'duration_ms_low', 'acousticness_very_high'})",4775,acousticness_very_high|duration_ms_low
+0.05717605625366859,"frozenset({'danceability_high', 'speechiness_high'})",4773,danceability_high|speechiness_high
+0.05710418189005618,"frozenset({'mode_1', 'key_very_low', 'speechiness_low'})",4767,key_very_low|mode_1|speechiness_low
+0.05709220282945411,"frozenset({'valence_low', 'acousticness_low'})",4766,acousticness_low|valence_low
+0.05705626564764791,"frozenset({'danceability_low', 'acousticness_high'})",4763,acousticness_high|danceability_low
+0.05702032846584171,"frozenset({'danceability_very_high', 'loudness_very_high'})",4760,danceability_very_high|loudness_very_high
+0.05702032846584171,"frozenset({'energy_low', 'instrumentalness_medium'})",4760,energy_low|instrumentalness_medium
+0.05699637034463757,"frozenset({'acousticness_very_high', 'liveness_low', 'energy_very_low', 'loudness_very_low'})",4758,acousticness_very_high|energy_very_low|liveness_low|loudness_very_low
+0.05699637034463757,"frozenset({'energy_very_low', 'instrumentalness_high', 'valence_very_low'})",4758,energy_very_low|instrumentalness_high|valence_very_low
+0.05699637034463757,"frozenset({'energy_low', 'mode_1', 'key_very_low'})",4758,energy_low|key_very_low|mode_1
+0.056984391284035506,"frozenset({'instrumentalness_medium', 'speechiness_very_high'})",4757,instrumentalness_medium|speechiness_very_high
+0.05696043316283137,"frozenset({'key_very_low', 'mode_1', 'duration_ms_high'})",4755,duration_ms_high|key_very_low|mode_1
+0.05696043316283137,"frozenset({'duration_ms_very_high', 'danceability_very_high'})",4755,danceability_very_high|duration_ms_very_high
+0.056852621617412766,"frozenset({'speechiness_high', 'loudness_very_low'})",4746,loudness_very_low|speechiness_high
+0.05680470537500449,"frozenset({'duration_ms_very_high', 'mode_1', 'key_very_low'})",4742,duration_ms_very_high|key_very_low|mode_1
+0.05679272631440242,"frozenset({'acousticness_high', 'speechiness_low'})",4741,acousticness_high|speechiness_low
+0.056780747253800355,"frozenset({'speechiness_very_low', 'mode_1', 'danceability_low'})",4740,danceability_low|mode_1|speechiness_very_low
+0.05676876819319829,"frozenset({'valence_high', 'mode_1', 'key_very_low'})",4739,key_very_low|mode_1|valence_high
+0.05676876819319829,"frozenset({'tempo_very_high', 'speechiness_low'})",4739,speechiness_low|tempo_very_high
+0.05676876819319829,"frozenset({'key_very_low', 'mode_1', 'acousticness_low'})",4739,acousticness_low|key_very_low|mode_1
+0.05675678913259622,"frozenset({'key_very_low', 'mode_1', 'liveness_high'})",4738,key_very_low|liveness_high|mode_1
+0.05675678913259622,"frozenset({'tempo_very_low', 'acousticness_very_high', 'energy_very_low', 'loudness_very_low'})",4738,acousticness_very_high|energy_very_low|loudness_very_low|tempo_very_low
+0.05674481007199415,"frozenset({'speechiness_very_low', 'mode_1', 'liveness_low'})",4737,liveness_low|mode_1|speechiness_very_low
+0.05670887289018795,"frozenset({'energy_low', 'danceability_low'})",4734,danceability_low|energy_low
+0.056696893829585884,"frozenset({'key_very_low', 'speechiness_high', 'mode_1'})",4733,key_very_low|mode_1|speechiness_high
+0.05668491476898382,"frozenset({'valence_low', 'liveness_very_low'})",4732,liveness_very_low|valence_low
+0.056601061344769346,"frozenset({'energy_very_high', 'danceability_high'})",4725,danceability_high|energy_very_high
+0.05655314510236107,"frozenset({'acousticness_very_low', 'tempo_low'})",4721,acousticness_very_low|tempo_low
+0.05655314510236107,"frozenset({'danceability_very_high', 'liveness_high'})",4721,danceability_very_high|liveness_high
+0.056493249799350734,"frozenset({'speechiness_very_high', 'danceability_very_high', 'instrumentalness_low'})",4716,danceability_very_high|instrumentalness_low|speechiness_very_high
+0.05637345919333006,"frozenset({'acousticness_very_high', 'key_high'})",4706,acousticness_very_high|key_high
+0.056361480132727994,"frozenset({'tempo_very_high', 'valence_very_low'})",4705,tempo_very_high|valence_very_low
+0.056349501072125927,"frozenset({'energy_low', 'loudness_high', 'instrumentalness_low'})",4704,energy_low|instrumentalness_low|loudness_high
+0.056349501072125927,"frozenset({'speechiness_high', 'valence_very_low'})",4704,speechiness_high|valence_very_low
+0.05630158482971765,"frozenset({'speechiness_high', 'liveness_low'})",4700,liveness_low|speechiness_high
+0.05630158482971765,"frozenset({'key_very_low', 'acousticness_high', 'mode_1'})",4700,acousticness_high|key_very_low|mode_1
+0.05630158482971765,"frozenset({'acousticness_low', 'speechiness_low'})",4700,acousticness_low|speechiness_low
+0.05628960576911558,"frozenset({'key_very_high', 'energy_very_low'})",4699,energy_very_low|key_very_high
+0.05625366858730938,"frozenset({'acousticness_very_low', 'duration_ms_low'})",4696,acousticness_very_low|duration_ms_low
+0.05622971046610525,"frozenset({'liveness_low', 'tempo_very_high'})",4694,liveness_low|tempo_very_high
+0.05618179422369698,"frozenset({'acousticness_very_high', 'duration_ms_very_low', 'energy_very_low', 'loudness_very_low'})",4690,acousticness_very_high|duration_ms_very_low|energy_very_low|loudness_very_low
+0.05616981516309491,"frozenset({'duration_ms_low', 'loudness_low'})",4689,duration_ms_low|loudness_low
+0.056145857041890776,"frozenset({'mode_0', 'energy_very_low', 'loudness_very_low'})",4687,energy_very_low|loudness_very_low|mode_0
+0.05609794079948251,"frozenset({'acousticness_high', 'mode_0', 'instrumentalness_low'})",4683,acousticness_high|instrumentalness_low|mode_0
+0.056026066435870096,"frozenset({'tempo_very_low', 'danceability_high'})",4677,danceability_high|tempo_very_low
+0.05601408737526803,"frozenset({'valence_very_high', 'mode_1', 'duration_ms_very_low'})",4676,duration_ms_very_low|mode_1|valence_very_high
+0.05600210831466596,"frozenset({'energy_low', 'tempo_very_high'})",4675,energy_low|tempo_very_high
+0.05597815019346183,"frozenset({'energy_low', 'speechiness_low'})",4673,energy_low|speechiness_low
+0.055942213011655625,"frozenset({'key_very_high', 'acousticness_very_high'})",4670,acousticness_very_high|key_very_high
+0.055894296769247356,"frozenset({'loudness_low', 'valence_very_low'})",4666,loudness_low|valence_very_low
+0.055858359587441155,"frozenset({'acousticness_very_high', 'mode_1', 'energy_very_low', 'danceability_very_low'})",4663,acousticness_very_high|danceability_very_low|energy_very_low|mode_1
+0.05583440146623702,"frozenset({'instrumentalness_medium', 'energy_very_low'})",4661,energy_very_low|instrumentalness_medium
+0.055810443345032885,"frozenset({'duration_ms_very_high', 'tempo_very_low'})",4659,duration_ms_very_high|tempo_very_low
+0.055810443345032885,"frozenset({'instrumentalness_low', 'mode_1', 'loudness_very_low'})",4659,instrumentalness_low|loudness_very_low|mode_1
+0.055738568981420475,"frozenset({'valence_low', 'acousticness_high'})",4653,acousticness_high|valence_low
+0.05572658992081841,"frozenset({'key_very_low', 'instrumentalness_medium', 'mode_1'})",4652,instrumentalness_medium|key_very_low|mode_1
+0.0555469040117874,"frozenset({'loudness_low', 'speechiness_high'})",4637,loudness_low|speechiness_high
+0.0555469040117874,"frozenset({'speechiness_very_high', 'danceability_very_low'})",4637,danceability_very_low|speechiness_very_high
+0.05553492495118533,"frozenset({'energy_very_high', 'liveness_very_low'})",4636,energy_very_high|liveness_very_low
+0.05552294589058326,"frozenset({'danceability_very_high', 'speechiness_low'})",4635,danceability_very_high|speechiness_low
+0.055439092466368786,"frozenset({'duration_ms_very_high', 'mode_1', 'valence_very_low'})",4628,duration_ms_very_high|mode_1|valence_very_low
+0.05542711340576672,"frozenset({'acousticness_low', 'liveness_low'})",4627,acousticness_low|liveness_low
+0.05542711340576672,"frozenset({'acousticness_very_high', 'liveness_high'})",4627,acousticness_very_high|liveness_high
+0.055403155284562584,"frozenset({'acousticness_very_high', 'loudness_very_low', 'speechiness_low'})",4625,acousticness_very_high|loudness_very_low|speechiness_low
+0.05537919716335845,"frozenset({'energy_very_high', 'mode_1', 'tempo_very_high'})",4623,energy_very_high|mode_1|tempo_very_high
+0.05536721810275638,"frozenset({'acousticness_very_low', 'energy_very_high', 'tempo_very_high'})",4622,acousticness_very_low|energy_very_high|tempo_very_high
+0.05529534373914398,"frozenset({'acousticness_high', 'loudness_high', 'instrumentalness_low'})",4616,acousticness_high|instrumentalness_low|loudness_high
+0.05525940655733777,"frozenset({'valence_very_high', 'acousticness_high', 'mode_1'})",4613,acousticness_high|mode_1|valence_very_high
+0.0552474274967357,"frozenset({'acousticness_very_high', 'danceability_high'})",4612,acousticness_very_high|danceability_high
+0.05507972064830676,"frozenset({'speechiness_very_low', 'mode_1', 'duration_ms_high'})",4598,duration_ms_high|mode_1|speechiness_very_low
+0.05505576252710263,"frozenset({'key_low', 'energy_very_low'})",4596,energy_very_low|key_low
+0.05505576252710263,"frozenset({'tempo_very_low', 'mode_1', 'danceability_very_low'})",4596,danceability_very_low|mode_1|tempo_very_low
+0.05504378346650056,"frozenset({'instrumentalness_low', 'mode_0', 'loudness_very_high'})",4595,instrumentalness_low|loudness_very_high|mode_0
+0.05503180440589849,"frozenset({'liveness_very_high', 'valence_very_low'})",4594,liveness_very_high|valence_very_low
+0.05499586722409228,"frozenset({'danceability_low', 'loudness_very_low'})",4591,danceability_low|loudness_very_low
+0.054947950981684014,"frozenset({'valence_high', 'speechiness_low'})",4587,speechiness_low|valence_high
+0.05492399286047988,"frozenset({'speechiness_very_low', 'danceability_high', 'mode_1'})",4585,danceability_high|mode_1|speechiness_very_low
+0.05491201379987781,"frozenset({'duration_ms_low', 'energy_very_low'})",4584,duration_ms_low|energy_very_low
+0.054900034739275745,"frozenset({'energy_very_low', 'mode_1', 'valence_very_low', 'loudness_very_low'})",4583,energy_very_low|loudness_very_low|mode_1|valence_very_low
+0.054900034739275745,"frozenset({'energy_very_low', 'acousticness_very_high', 'danceability_very_low', 'valence_very_low'})",4583,acousticness_very_high|danceability_very_low|energy_very_low|valence_very_low
+0.054900034739275745,"frozenset({'valence_high', 'liveness_low'})",4583,liveness_low|valence_high
+0.05487607661807161,"frozenset({'energy_very_low', 'liveness_high'})",4581,energy_very_low|liveness_high
+0.05486409755746954,"frozenset({'instrumentalness_low', 'energy_very_low', 'loudness_very_low'})",4580,energy_very_low|instrumentalness_low|loudness_very_low
+0.054852118496867476,"frozenset({'instrumentalness_medium', 'tempo_very_low'})",4579,instrumentalness_medium|tempo_very_low
+0.05484013943626541,"frozenset({'danceability_high', 'speechiness_very_high'})",4578,danceability_high|speechiness_very_high
+0.05484013943626541,"frozenset({'acousticness_very_low', 'energy_very_high', 'speechiness_high'})",4578,acousticness_very_low|energy_very_high|speechiness_high
+0.05482816037566334,"frozenset({'speechiness_very_low', 'valence_high'})",4577,speechiness_very_low|valence_high
+0.05466045352723439,"frozenset({'acousticness_very_high', 'mode_1', 'speechiness_low'})",4563,acousticness_very_high|mode_1|speechiness_low
+0.054612537284826124,"frozenset({'danceability_high', 'tempo_very_high'})",4559,danceability_high|tempo_very_high
+0.05458857916362199,"frozenset({'acousticness_very_low', 'instrumentalness_high', 'mode_1'})",4557,acousticness_very_low|instrumentalness_high|mode_1
+0.05458857916362199,"frozenset({'loudness_low', 'liveness_very_high'})",4557,liveness_very_high|loudness_low
+0.05458857916362199,"frozenset({'mode_1', 'energy_high', 'acousticness_low'})",4557,acousticness_low|energy_high|mode_1
+0.05455264198181579,"frozenset({'tempo_high', 'loudness_very_low'})",4554,loudness_very_low|tempo_high
+0.05454066292121372,"frozenset({'loudness_high', 'liveness_low'})",4553,liveness_low|loudness_high
+0.05449274667880545,"frozenset({'tempo_very_low', 'loudness_high'})",4549,loudness_high|tempo_very_low
+0.054480767618203384,"frozenset({'acousticness_very_low', 'energy_very_high', 'mode_1', 'loudness_very_high'})",4548,acousticness_very_low|energy_very_high|loudness_very_high|mode_1
+0.05443285137579511,"frozenset({'valence_very_high', 'speechiness_very_low'})",4544,speechiness_very_low|valence_very_high
+0.05442087231519304,"frozenset({'mode_1', 'speechiness_very_high', 'loudness_very_high'})",4543,loudness_very_high|mode_1|speechiness_very_high
+0.05440889325459097,"frozenset({'tempo_low', 'loudness_very_high'})",4542,loudness_very_high|tempo_low
+0.054396914193988906,"frozenset({'duration_ms_very_low', 'valence_very_low'})",4541,duration_ms_very_low|valence_very_low
+0.05438493513338684,"frozenset({'liveness_very_low', 'acousticness_very_high'})",4540,acousticness_very_high|liveness_very_low
+0.05437295607278477,"frozenset({'mode_0', 'energy_high', 'instrumentalness_low'})",4539,energy_high|instrumentalness_low|mode_0
+0.05424118640616203,"frozenset({'speechiness_very_low', 'acousticness_low'})",4528,acousticness_low|speechiness_very_low
+0.0542172282849579,"frozenset({'liveness_very_high', 'speechiness_low'})",4526,liveness_very_high|speechiness_low
+0.054193270163753755,"frozenset({'liveness_high', 'valence_very_low'})",4524,liveness_high|valence_very_low
+0.054145353921345486,"frozenset({'mode_1', 'energy_very_low', 'loudness_very_low', 'danceability_very_low'})",4520,danceability_very_low|energy_very_low|loudness_very_low|mode_1
+0.054109416739539284,"frozenset({'liveness_very_low', 'duration_ms_very_low'})",4517,duration_ms_very_low|liveness_very_low
+0.05407347955773308,"frozenset({'mode_1', 'tempo_very_high', 'loudness_very_high'})",4514,loudness_very_high|mode_1|tempo_very_high
+0.05389379364870207,"frozenset({'valence_low', 'duration_ms_very_low'})",4499,duration_ms_very_low|valence_low
+0.05389379364870207,"frozenset({'speechiness_very_low', 'energy_high'})",4499,energy_high|speechiness_very_low
+0.053857856466895865,"frozenset({'instrumentalness_low', 'loudness_very_high', 'valence_very_high'})",4496,instrumentalness_low|loudness_very_high|valence_very_high
+0.05382191928508966,"frozenset({'instrumentalness_medium', 'acousticness_very_high'})",4493,acousticness_very_high|instrumentalness_medium
+0.05379796116388553,"frozenset({'energy_very_low', 'instrumentalness_high', 'valence_very_low', 'loudness_very_low'})",4491,energy_very_low|instrumentalness_high|loudness_very_low|valence_very_low
+0.05376202398207933,"frozenset({'speechiness_very_low', 'key_low'})",4488,key_low|speechiness_very_low
+0.05373806586087519,"frozenset({'acousticness_very_low', 'energy_very_high', 'instrumentalness_high'})",4486,acousticness_very_low|energy_very_high|instrumentalness_high
+0.05359431713365038,"frozenset({'duration_ms_very_high', 'liveness_high'})",4474,duration_ms_very_high|liveness_high
+0.05351046370943591,"frozenset({'acousticness_very_low', 'energy_very_high', 'liveness_very_high'})",4467,acousticness_very_low|energy_very_high|liveness_very_high
+0.05341463122461936,"frozenset({'duration_ms_very_high', 'energy_very_low'})",4459,duration_ms_very_high|energy_very_low
+0.05341463122461936,"frozenset({'instrumentalness_medium', 'duration_ms_very_low'})",4459,duration_ms_very_low|instrumentalness_medium
+0.05334275686100696,"frozenset({'loudness_low', 'tempo_very_high'})",4453,loudness_low|tempo_very_high
+0.053318798739802824,"frozenset({'acousticness_high', 'danceability_very_high', 'instrumentalness_low'})",4451,acousticness_high|danceability_very_high|instrumentalness_low
+0.05328286155799662,"frozenset({'speechiness_very_high', 'duration_ms_high'})",4448,duration_ms_high|speechiness_very_high
+0.053270882497394555,"frozenset({'valence_very_high', 'danceability_high', 'mode_1'})",4447,danceability_high|mode_1|valence_very_high
+0.05312713377016974,"frozenset({'speechiness_very_high', 'tempo_low'})",4435,speechiness_very_high|tempo_low
+0.05311515470956767,"frozenset({'mode_0', 'acousticness_low', 'instrumentalness_low'})",4434,acousticness_low|instrumentalness_low|mode_0
+0.053103175648965606,"frozenset({'mode_1', 'loudness_very_low', 'speechiness_low'})",4433,loudness_very_low|mode_1|speechiness_low
+0.053103175648965606,"frozenset({'tempo_high', 'duration_ms_very_low'})",4433,duration_ms_very_low|tempo_high
+0.05304328034595527,"frozenset({'energy_very_high', 'speechiness_high', 'mode_1'})",4428,energy_very_high|mode_1|speechiness_high
+0.053019322224751135,"frozenset({'instrumentalness_high', 'tempo_very_high'})",4426,instrumentalness_high|tempo_very_high
+0.05298338504294493,"frozenset({'valence_low', 'speechiness_very_low', 'mode_1'})",4423,mode_1|speechiness_very_low|valence_low
+0.052935468800536664,"frozenset({'danceability_low', 'acousticness_low'})",4419,acousticness_low|danceability_low
+0.0529234897399346,"frozenset({'tempo_very_low', 'speechiness_high'})",4418,speechiness_high|tempo_very_low
+0.05280369913391392,"frozenset({'energy_very_low', 'acousticness_very_high', 'mode_1', 'valence_very_low'})",4408,acousticness_very_high|energy_very_low|mode_1|valence_very_low
+0.05280369913391392,"frozenset({'instrumentalness_low', 'duration_ms_low', 'loudness_very_high'})",4408,duration_ms_low|instrumentalness_low|loudness_very_high
+0.052719845709699446,"frozenset({'mode_1', 'energy_very_low', 'speechiness_low'})",4401,energy_very_low|mode_1|speechiness_low
+0.05265995040668911,"frozenset({'instrumentalness_high', 'mode_1', 'energy_very_low', 'loudness_very_low'})",4396,energy_very_low|instrumentalness_high|loudness_very_low|mode_1
+0.05265995040668911,"frozenset({'danceability_low', 'speechiness_very_high'})",4396,danceability_low|speechiness_very_high
+0.052635992285484975,"frozenset({'mode_1', 'acousticness_very_high', 'liveness_low', 'energy_very_low'})",4394,acousticness_very_high|energy_very_low|liveness_low|mode_1
+0.0526240132248829,"frozenset({'danceability_low', 'tempo_low'})",4393,danceability_low|tempo_low
+0.0525880760430767,"frozenset({'energy_very_high', 'tempo_low'})",4390,energy_very_high|tempo_low
+0.05250422261886223,"frozenset({'acousticness_high', 'energy_high', 'instrumentalness_low'})",4383,acousticness_high|energy_high|instrumentalness_low
+0.05244432731585189,"frozenset({'acousticness_very_low', 'mode_1', 'danceability_very_low'})",4378,acousticness_very_low|danceability_very_low|mode_1
+0.05242036919464776,"frozenset({'liveness_very_low', 'danceability_very_low'})",4376,danceability_very_low|liveness_very_low
+0.05239641107344362,"frozenset({'valence_very_high', 'danceability_high', 'instrumentalness_low'})",4374,danceability_high|instrumentalness_low|valence_very_high
+0.052384432012841556,"frozenset({'instrumentalness_low', 'speechiness_very_high', 'loudness_very_high'})",4373,instrumentalness_low|loudness_very_high|speechiness_very_high
+0.05237245295223949,"frozenset({'acousticness_very_high', 'energy_very_low', 'loudness_very_low', 'speechiness_low'})",4372,acousticness_very_high|energy_very_low|loudness_very_low|speechiness_low
+0.05233651577043328,"frozenset({'tempo_very_low', 'energy_high'})",4369,energy_high|tempo_very_low
+0.05232453670983121,"frozenset({'acousticness_very_high', 'mode_1', 'energy_very_low', 'instrumentalness_low'})",4368,acousticness_very_high|energy_very_low|instrumentalness_low|mode_1
+0.05232453670983121,"frozenset({'duration_ms_very_high', 'danceability_high'})",4368,danceability_high|duration_ms_very_high
+0.05224068328561674,"frozenset({'acousticness_high', 'speechiness_high'})",4361,acousticness_high|speechiness_high
+0.05220474610381054,"frozenset({'mode_1', 'liveness_very_high', 'speechiness_very_high'})",4358,liveness_very_high|mode_1|speechiness_very_high
+0.05216880892200434,"frozenset({'instrumentalness_high', 'liveness_high'})",4355,instrumentalness_high|liveness_high
+0.05216880892200434,"frozenset({'loudness_high', 'duration_ms_very_low'})",4355,duration_ms_very_low|loudness_high
+0.05212089267959607,"frozenset({'loudness_low', 'speechiness_very_high'})",4351,loudness_low|speechiness_very_high
+0.052060997376585726,"frozenset({'instrumentalness_medium', 'acousticness_high'})",4346,acousticness_high|instrumentalness_medium
+0.05204901831598366,"frozenset({'mode_1', 'liveness_low', 'valence_very_low'})",4345,liveness_low|mode_1|valence_very_low
+0.05200110207357539,"frozenset({'liveness_high', 'loudness_very_low'})",4341,liveness_high|loudness_very_low
+0.05195318583116712,"frozenset({'mode_0', 'valence_high', 'instrumentalness_low'})",4337,instrumentalness_low|mode_0|valence_high
+0.05195318583116712,"frozenset({'tempo_high', 'acousticness_high'})",4337,acousticness_high|tempo_high
+0.051929227709962986,"frozenset({'acousticness_high', 'key_very_low', 'instrumentalness_low'})",4335,acousticness_high|instrumentalness_low|key_very_low
+0.05190526958875885,"frozenset({'valence_low', 'mode_1', 'energy_very_low'})",4333,energy_very_low|mode_1|valence_low
+0.05186933240695265,"frozenset({'valence_low', 'energy_high'})",4330,energy_high|valence_low
+0.05185735334635058,"frozenset({'acousticness_very_high', 'liveness_very_high'})",4329,acousticness_very_high|liveness_very_high
+0.05183339522514645,"frozenset({'key_low', 'loudness_very_low'})",4327,key_low|loudness_very_low
+0.051809437103942306,"frozenset({'valence_very_high', 'duration_ms_very_low', 'instrumentalness_low'})",4325,duration_ms_very_low|instrumentalness_low|valence_very_high
+0.05179745804334024,"frozenset({'acousticness_very_high', 'mode_1', 'instrumentalness_high'})",4324,acousticness_very_high|instrumentalness_high|mode_1
+0.05178547898273817,"frozenset({'danceability_low', 'liveness_very_low'})",4323,danceability_low|liveness_very_low
+0.05174954180093197,"frozenset({'duration_ms_very_high', 'instrumentalness_high', 'mode_1'})",4320,duration_ms_very_high|instrumentalness_high|mode_1
+0.05171360461912577,"frozenset({'energy_low', 'speechiness_very_low', 'instrumentalness_low'})",4317,energy_low|instrumentalness_low|speechiness_very_low
+0.0517016255585237,"frozenset({'duration_ms_low', 'mode_0', 'instrumentalness_low'})",4316,duration_ms_low|instrumentalness_low|mode_0
+0.0517016255585237,"frozenset({'speechiness_very_high', 'valence_very_low'})",4316,speechiness_very_high|valence_very_low
+0.051677667437319566,"frozenset({'acousticness_very_high', 'danceability_very_low', 'valence_very_low', 'loudness_very_low'})",4314,acousticness_very_high|danceability_very_low|loudness_very_low|valence_very_low
+0.051557876831298886,"frozenset({'acousticness_high', 'loudness_low', 'mode_1'})",4304,acousticness_high|loudness_low|mode_1
+0.05154589777069682,"frozenset({'speechiness_very_low', 'mode_1', 'loudness_very_low'})",4303,loudness_very_low|mode_1|speechiness_very_low
+0.05148600246768648,"frozenset({'mode_0', 'acousticness_very_high', 'energy_very_low'})",4298,acousticness_very_high|energy_very_low|mode_0
+0.05145006528588028,"frozenset({'mode_0', 'danceability_very_high', 'instrumentalness_low'})",4295,danceability_very_high|instrumentalness_low|mode_0
+0.051438086225278214,"frozenset({'danceability_very_high', 'duration_ms_high'})",4294,danceability_very_high|duration_ms_high
+0.05141412810407408,"frozenset({'liveness_very_high', 'speechiness_very_high', 'instrumentalness_low'})",4292,instrumentalness_low|liveness_very_high|speechiness_very_high
+0.05137819092226788,"frozenset({'valence_low', 'danceability_low', 'mode_1'})",4289,danceability_low|mode_1|valence_low
+0.05135423280106374,"frozenset({'acousticness_very_high', 'valence_high'})",4287,acousticness_very_high|valence_high
+0.051342253740461676,"frozenset({'liveness_very_high', 'mode_1', 'loudness_very_high'})",4286,liveness_very_high|loudness_very_high|mode_1
+0.0512943374980534,"frozenset({'energy_very_high', 'speechiness_high', 'loudness_very_high'})",4282,energy_very_high|loudness_very_high|speechiness_high
+0.05117454689203273,"frozenset({'acousticness_high', 'loudness_low', 'instrumentalness_low'})",4272,acousticness_high|instrumentalness_low|loudness_low
+0.051138609710226525,"frozenset({'energy_very_high', 'duration_ms_very_low'})",4269,duration_ms_very_low|energy_very_high
+0.05103079816480791,"frozenset({'tempo_very_low', 'acousticness_low'})",4260,acousticness_low|tempo_very_low
+0.05103079816480791,"frozenset({'acousticness_low', 'duration_ms_very_low'})",4260,acousticness_low|duration_ms_very_low
+0.05099486098300171,"frozenset({'valence_low', 'acousticness_very_high', 'energy_very_low'})",4257,acousticness_very_high|energy_very_low|valence_low
+0.05095892380119551,"frozenset({'valence_very_high', 'tempo_very_low'})",4254,tempo_very_low|valence_very_high
+0.05094694474059344,"frozenset({'acousticness_high', 'energy_very_low'})",4253,acousticness_high|energy_very_low
+0.05092298661938931,"frozenset({'duration_ms_very_low', 'loudness_very_high'})",4251,duration_ms_very_low|loudness_very_high
+0.050851112255776904,"frozenset({'valence_very_high', 'acousticness_low', 'instrumentalness_low'})",4245,acousticness_low|instrumentalness_low|valence_very_high
+0.05082715413457277,"frozenset({'speechiness_very_low', 'tempo_very_low', 'mode_1'})",4243,mode_1|speechiness_very_low|tempo_very_low
+0.0507792378921645,"frozenset({'acousticness_very_low', 'energy_very_high', 'instrumentalness_medium'})",4239,acousticness_very_low|energy_very_high|instrumentalness_medium
+0.0507792378921645,"frozenset({'key_low', 'danceability_very_low'})",4239,danceability_very_low|key_low
+0.050731321649756224,"frozenset({'valence_high', 'speechiness_very_high', 'instrumentalness_low'})",4235,instrumentalness_low|speechiness_very_high|valence_high
+0.050731321649756224,"frozenset({'acousticness_low', 'danceability_very_high', 'instrumentalness_low'})",4235,acousticness_low|danceability_very_high|instrumentalness_low
+0.05071934258915416,"frozenset({'energy_high', 'liveness_low'})",4234,energy_high|liveness_low
+0.05062351010433762,"frozenset({'tempo_very_low', 'key_low'})",4226,key_low|tempo_very_low
+0.05062351010433762,"frozenset({'speechiness_very_low', 'mode_1', 'tempo_low'})",4226,mode_1|speechiness_very_low|tempo_low
+0.05061153104373555,"frozenset({'acousticness_high', 'danceability_high', 'instrumentalness_low'})",4225,acousticness_high|danceability_high|instrumentalness_low
+0.05056361480132728,"frozenset({'duration_ms_very_high', 'valence_high'})",4221,duration_ms_very_high|valence_high
+0.050551635740725215,"frozenset({'valence_very_high', 'mode_0', 'instrumentalness_low'})",4220,instrumentalness_low|mode_0|valence_very_high
+0.050551635740725215,"frozenset({'mode_0', 'key_very_high', 'instrumentalness_low'})",4220,instrumentalness_low|key_very_high|mode_0
+0.050551635740725215,"frozenset({'key_low', 'liveness_low'})",4220,key_low|liveness_low
+0.050479761377112804,"frozenset({'tempo_high', 'speechiness_very_high'})",4214,speechiness_very_high|tempo_high
+0.050347991710490064,"frozenset({'energy_very_low', 'duration_ms_high'})",4203,duration_ms_high|energy_very_low
+0.050347991710490064,"frozenset({'tempo_very_low', 'danceability_very_low', 'valence_very_low'})",4203,danceability_very_low|tempo_very_low|valence_very_low
+0.050252159225673526,"frozenset({'tempo_high', 'energy_very_low'})",4195,energy_very_low|tempo_high
+0.050252159225673526,"frozenset({'energy_low', 'liveness_very_high'})",4195,energy_low|liveness_very_high
+0.050252159225673526,"frozenset({'danceability_low', 'duration_ms_very_low'})",4195,danceability_low|duration_ms_very_low
+0.05021622204386732,"frozenset({'danceability_low', 'mode_1', 'tempo_very_high'})",4192,danceability_low|mode_1|tempo_very_high
+0.05020424298326525,"frozenset({'mode_1', 'acousticness_low', 'loudness_very_high'})",4191,acousticness_low|loudness_very_high|mode_1
+0.05020424298326525,"frozenset({'duration_ms_low', 'danceability_very_low'})",4191,danceability_very_low|duration_ms_low
+0.05019226392266318,"frozenset({'key_low', 'valence_very_low'})",4190,key_low|valence_very_low
+0.05016830580145905,"frozenset({'tempo_very_low', 'acousticness_very_high', 'mode_1', 'energy_very_low'})",4188,acousticness_very_high|energy_very_low|mode_1|tempo_very_low
+0.05015632674085698,"frozenset({'danceability_high', 'loudness_very_low'})",4187,danceability_high|loudness_very_low
+0.050132368619652846,"frozenset({'duration_ms_very_high', 'instrumentalness_high', 'valence_very_low'})",4185,duration_ms_very_high|instrumentalness_high|valence_very_low
+0.05006049425604044,"frozenset({'duration_ms_very_high', 'mode_1', 'danceability_very_low'})",4179,danceability_very_low|duration_ms_very_high|mode_1
+0.05002455707423424,"frozenset({'tempo_very_low', 'danceability_very_high'})",4176,danceability_very_high|tempo_very_low

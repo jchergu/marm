@@ -1,0 +1,25 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski,antecedents_str,consequents_str
+frozenset({'mode_1'}),frozenset({'time_signature_4'}),0.6337522011523856,1.0,0.6337522011523856,1.0,1.0,1.0,0.0,inf,0.0,0.6337522011523856,0.0,0.8168761005761929,mode_1,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'mode_1'}),1.0,0.6337522011523856,0.6337522011523856,0.6337522011523856,1.0,1.0,0.0,1.0,0.0,0.6337522011523856,0.0,0.8168761005761929,time_signature_4,mode_1
+frozenset({'key_low'}),frozenset({'time_signature_4'}),0.5069059284370919,1.0,0.5069059284370919,1.0,1.0,1.0,0.0,inf,0.0,0.506905928437092,0.0,0.7534529642185459,key_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'key_low'}),1.0,0.5069059284370919,0.5069059284370919,0.5069059284370919,1.0,1.0,0.0,1.0,0.0,0.506905928437092,0.0,0.7534529642185459,time_signature_4,key_low
+frozenset({'liveness_low'}),frozenset({'time_signature_4'}),0.5020783670144587,1.0,0.5020783670144587,1.0,1.0,1.0,0.0,inf,0.0,0.5020783670144587,0.0,0.7510391835072294,liveness_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'liveness_low'}),1.0,0.5020783670144587,0.5020783670144587,0.5020783670144587,1.0,1.0,0.0,1.0,0.0,0.5020783670144587,0.0,0.7510391835072294,time_signature_4,liveness_low
+frozenset({'valence_low'}),frozenset({'time_signature_4'}),0.5008445237724458,1.0,0.5008445237724458,1.0,1.0,1.0,0.0,inf,0.0,0.5008445237724459,0.0,0.7504222618862229,valence_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'valence_low'}),1.0,0.5008445237724458,0.5008445237724458,0.5008445237724458,1.0,1.0,0.0,1.0,0.0,0.5008445237724459,0.0,0.7504222618862229,time_signature_4,valence_low
+frozenset({'acousticness_low'}),frozenset({'time_signature_4'}),0.5007247331664251,1.0,0.5007247331664251,1.0,1.0,1.0,0.0,inf,0.0,0.5007247331664251,0.0,0.7503623665832125,acousticness_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'acousticness_low'}),1.0,0.5007247331664251,0.5007247331664251,0.5007247331664251,1.0,1.0,0.0,1.0,0.0,0.5007247331664251,0.0,0.7503623665832125,time_signature_4,acousticness_low
+frozenset({'danceability_low'}),frozenset({'time_signature_4'}),0.5001976544999341,1.0,0.5001976544999341,1.0,1.0,1.0,0.0,inf,0.0,0.5001976544999341,0.0,0.7500988272499671,danceability_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'danceability_low'}),1.0,0.5001976544999341,0.5001976544999341,0.5001976544999341,1.0,1.0,0.0,1.0,0.0,0.5001976544999341,0.0,0.7500988272499671,time_signature_4,danceability_low
+frozenset({'loudness_low'}),frozenset({'time_signature_4'}),0.5001257801363217,1.0,0.5001257801363217,1.0,1.0,1.0,0.0,inf,0.0,0.5001257801363217,0.0,0.7500628900681608,loudness_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'loudness_low'}),1.0,0.5001257801363217,0.5001257801363217,0.5001257801363217,1.0,1.0,0.0,1.0,0.0,0.5001257801363217,0.0,0.7500628900681608,time_signature_4,loudness_low
+frozenset({'speechiness_low'}),frozenset({'time_signature_4'}),0.5001138010757197,1.0,0.5001138010757197,1.0,1.0,1.0,0.0,inf,0.0,0.5001138010757197,0.0,0.7500569005378599,speechiness_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'speechiness_low'}),1.0,0.5001138010757197,0.5001138010757197,0.5001138010757197,1.0,1.0,0.0,1.0,0.0,0.5001138010757197,0.0,0.7500569005378599,time_signature_4,speechiness_low
+frozenset({'instrumentalness_low'}),frozenset({'time_signature_4'}),0.5000539057727093,1.0,0.5000539057727093,1.0,1.0,1.0,0.0,inf,0.0,0.5000539057727094,0.0,0.7500269528863546,instrumentalness_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'instrumentalness_low'}),1.0,0.5000539057727093,0.5000539057727093,0.5000539057727093,1.0,1.0,0.0,1.0,0.0,0.5000539057727094,0.0,0.7500269528863546,time_signature_4,instrumentalness_low
+frozenset({'energy_low'}),frozenset({'time_signature_4'}),0.5000179685909031,1.0,0.5000179685909031,1.0,1.0,1.0,0.0,inf,0.0,0.5000179685909031,0.0,0.7500089842954516,energy_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'energy_low'}),1.0,0.5000179685909031,0.5000179685909031,0.5000179685909031,1.0,1.0,0.0,1.0,0.0,0.5000179685909031,0.0,0.7500089842954516,time_signature_4,energy_low
+frozenset({'tempo_low'}),frozenset({'time_signature_4'}),0.5000059895303011,1.0,0.5000059895303011,1.0,1.0,1.0,0.0,inf,0.0,0.5000059895303011,0.0,0.7500029947651505,tempo_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'tempo_low'}),1.0,0.5000059895303011,0.5000059895303011,0.5000059895303011,1.0,1.0,0.0,1.0,0.0,0.5000059895303011,0.0,0.7500029947651505,time_signature_4,tempo_low
+frozenset({'duration_ms_low'}),frozenset({'time_signature_4'}),0.5000059895303011,1.0,0.5000059895303011,1.0,1.0,1.0,0.0,inf,0.0,0.5000059895303011,0.0,0.7500029947651505,duration_ms_low,time_signature_4
+frozenset({'time_signature_4'}),frozenset({'duration_ms_low'}),1.0,0.5000059895303011,0.5000059895303011,0.5000059895303011,1.0,1.0,0.0,1.0,0.0,0.5000059895303011,0.0,0.7500029947651505,time_signature_4,duration_ms_low

@@ -8,7 +8,7 @@ from sklearn.preprocessing import FunctionTransformer, OneHotEncoder, StandardSc
 from sklearn.model_selection import train_test_split
 from .outlier_detection import winsorize_df
 
-DROP_COLS = {"track_id", "track_name", "album_name", "artists", "popularity", "explicit", "track_genre"}
+DROP_COLS = {"track_id", "track_name", "album_name", "artists", "popularity", "explicit", "track_genre", "time_signature"}
 
 
 def _infer_numeric_columns(df):
@@ -55,7 +55,7 @@ def preprocess(
     # remove first column (index column present before track_id)
     if df.shape[1] > 0:
         df = df.iloc[:, 1:]
-    print("[preprocessing] removed first index column")
+    print(f"[preprocessing] removing columns: {DROP_COLS}")
 
     # drop the specified metadata columns if present
     df = df.drop(columns=[c for c in DROP_COLS if c in df.columns], errors="ignore")

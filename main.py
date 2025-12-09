@@ -4,6 +4,7 @@ from src.preprocessing import preprocess
 from src.header_print import print_header
 from src.discretization import create_arm_dataset
 from src.fpg import apply_fpgrowth
+from src.arm_summary import summarize_arm_results
 from pathlib import Path
 
 def main():
@@ -35,7 +36,7 @@ def main():
     print(f"[main] Feature names ({len(res['feature_names'])}): {res['feature_names'][:10]}{'...' if len(res['feature_names'])>10 else ''}")
 
     # create ARM-ready datasets from the processed_df (before scaling)
-    data_dir = Path(__file__).resolve().parent / "data"
+    data_dir = Path(__file__).resolve().parent / "data" / "processed"
     onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=data_dir)
 
     print(f"[main] ARM one-hot shape: {onehot_df.shape}")
@@ -45,13 +46,21 @@ def main():
 
     # run FP-growth on the generated transactions and persist results
     try:
-        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=0.02, min_confidence=0.5)
+        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=0.02, min_confidence=0.6)
         print(f"[main] FP-growth results written:")
         print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
         print(f"  rules: {fpg_paths.get('rules')}")
         print(f"  meta: {fpg_paths.get('meta')}")
     except Exception as e:
-        print(f"[main] FP-growth failed: {e}")    
+        print(f"[main] FP-growth failed: {e}")   
+
+    img_dir = data_dir / "images"
+
+    summarize_arm_results(
+        itemsets_csv=fpg_paths["frequent_itemsets"],
+        rules_csv=fpg_paths["rules"],
+        output_dir=img_dir,
+    ) 
 
 if __name__ == "__main__":
     main()

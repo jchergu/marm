@@ -1,5 +1,14 @@
 # MARM: Music-understanding Association Rule Mining
 
+This project takes a song-features dataset and extracts with Machine Learning algorithms music rules.  
+
+Examples of rules computed:
+```
+Energic song => Major key
+Low energy => Low danceability
+```
+
+
 ## How to run
 
 ## Structure

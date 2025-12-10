@@ -8,8 +8,25 @@ Energic song => Major key
 Low energy => Low danceability
 ```
 
+Results can be used for music recommendation systems, music analysis, music generation, and are available in the data/processed folder, ready to use.
+
 
 ## How to run
+
+1. Clone the repository
+2. Create a virtual environment and install dependencies:
+``` bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+```
+3. Run:
+``` bash
+python main.py
+```
+
+Generating rules will take some time, depending on your hardware. Take a coffee break :)
+
 
 ## Structure
 ### Preprocessing
@@ -62,7 +79,7 @@ Here's a brief description of every column:
 - Splitting data: train/test/\[validation\]
 - Consistency check
 
-#### Data dicretization
+#### Data discretization
 To perform Association Rule Mining, we need to discretize our data to apply A-Priori or FP-Growth algorithm.  
 After loading the dataset, data are prepared for ARM by converting each song's feature into discrete, human-readable categories (*e.g. low, high ecc.*). This is necessary because A-Priori and FP-Growth work on sets of items, not continuous numbers.  
 
@@ -91,3 +108,16 @@ Steps:
 - Collect all paths that lead to that item ("Conditional Pattern Base")
 - Build a conditional FP-Tree just for the item
 - Recursively extracts patterns 
+
+#### The Results
+After running the ARM process, several outputs are generated in the `data/processed` folder:
+- `arm_onehot.csv`: the one-hot encoded dataset used for ARM
+- `arm_transactions.txt`: the transactions file used for ARM
+- `arm_association_rules_{confidence}_{timestamp}.csv`: all the generated rules with support, confidence, lift, antecedents and consequents
+- images in images/ folder: several plots to visualize itemsets and rules distributions
+
+### Pipeline Summary
+- data loading and cleaning
+- data preprocessing and discretization
+- ARM with FP-Growth
+- rules simplification and interesting rules extraction

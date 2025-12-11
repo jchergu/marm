@@ -101,6 +101,11 @@ In almost every real scenario, FP-Growth is best:
 #### The FP-Growth algorithm
 Instead of generating millions of candidate items like apriori algorithm, fpgrowth compresses the dataset into a compact tree structure (FP-Tree) and then extracts frequent patterns directly from the tree, without brute force.
 
+Librady used: mlxtend.frequent_patterns.fpgrowth
+Parameters used:
+- `min_support=0.02`: minimum support threshold to consider an itemset as frequent
+- `min_confidence=0.6`: only generate rules with confidence above this threshold
+
 Steps:
 1. Count items and remove garbage: scanning the dataset, find out how many times an item appears, throws out items below `min_support` and sorts items by frequency
 2. FP-Tree building: the most an item is frequent, the more is close to the root. Thanks to this, information is compressed, this saves a ton of memory and computation.  

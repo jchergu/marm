@@ -7,6 +7,8 @@ from src.fpg import apply_fpgrowth
 from src.arm_summary import summarize_arm_results
 from pathlib import Path
 
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE
+
 def main():
 
     print_header()
@@ -26,15 +28,6 @@ def main():
         random_state=42,
     )
 
-    X = res["X"]
-    X_train = res["X_train"]
-    X_test = res["X_test"]
-    X_val = res["X_val"]
-
-    print(f"[main] Transformed full X: {X.shape}")
-    print(f"[main] X_train: {X_train.shape}, X_test: {X_test.shape}, X_val: {None if X_val is None else X_val.shape}")
-    print(f"[main] Feature names ({len(res['feature_names'])}): {res['feature_names'][:10]}{'...' if len(res['feature_names'])>10 else ''}")
-
     # create ARM-ready datasets from the processed_df (before scaling)
     data_dir = Path(__file__).resolve().parent / "data" / "processed"
     onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=data_dir)
@@ -46,7 +39,7 @@ def main():
 
     # run FP-growth on the generated transactions and persist results
     try:
-        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=0.02, min_confidence=0.6)
+        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
         print(f"[main] FP-growth results written:")
         print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
         print(f"  rules: {fpg_paths.get('rules')}")

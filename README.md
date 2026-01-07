@@ -14,15 +14,18 @@ Results can be used for music recommendation systems, music analysis, music gene
 ## How to run
 
 1. Clone the repository
+```bash
+git clone https://github.com/jchergu/marm.git && cd marm
+```
 2. Create a virtual environment and install dependencies:
 ``` bash
-python -m venv venv
+python3 -m venv venv # or 'python' instead of 'python3'
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 3. Run:
 ``` bash
-python main.py
+python3 main.py  # or 'python' instead of 'python3'
 ```
 
 Generating rules will take some time, depending on your hardware. Take a coffee break :)
@@ -76,7 +79,6 @@ Here's a brief description of every column:
 - Outliers handling
 - Feature selection / Dimensionality reduction
 - Data Transformation
-- Splitting data: train/test/\[validation\]
 - Consistency check
 
 #### Data discretization

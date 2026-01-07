@@ -221,8 +221,8 @@ def apply_fpgrowth(
     transactions_path: Optional[Path] = None,
     onehot_path: Optional[Path] = None,
     *,
-    min_support: float = 0.02,
-    min_confidence: float = 0.5,
+    min_support: float,
+    min_confidence: float,
     output_dir: Optional[Path] = None,
 ) -> Dict[str, str]:
     """

@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE
+
 def _phase_load_results(itemsets_csv: str, rules_csv: str):
     print("\n[ARM SUMMARY] Loading FP-Growth results...")
     itemsets = pd.read_csv(itemsets_csv)
@@ -61,7 +63,7 @@ def _phase_simplify_rules(rules: pd.DataFrame, output_dir: Path):
 
 
 def _phase_find_interesting_rules(rules: pd.DataFrame, output_dir: Path,
-                                  lift_thresh=1.2, conf_thresh=0.6, supp_thresh=0.05):
+                                  lift_thresh=1.2, conf_thresh=MIN_CONFIDENCE, supp_thresh=MIN_SUPPORT):
     print("[arm summary] Selecting interesting rules using thresholds")
     interesting = rules[
         (rules["lift"] > lift_thresh) &
@@ -95,7 +97,7 @@ def summarize_arm_results(itemsets_csv: str, rules_csv: str, output_dir: Path):
     print(f"\n[arm summary] Wrote simplified rules to: {simple_path}")
 
     interesting_path, interesting = _phase_find_interesting_rules(rules, output_dir)
-    print("\n[arm summary] Interesting strong rules (lift>1.2, conf>0.6, support>0.05):")
+    print(f"\n[arm summary] Interesting strong rules (lift>1.2, conf>{MIN_CONFIDENCE}, support>{MIN_SUPPORT}):")
     if interesting.empty:
         print("  None found.")
     else:

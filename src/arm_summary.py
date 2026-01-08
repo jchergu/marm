@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-from src.config import MIN_SUPPORT, MIN_CONFIDENCE
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE, LIFT
 
 def _phase_load_results(itemsets_csv: str, rules_csv: str):
     print("\n[ARM SUMMARY] Loading FP-Growth results...")
@@ -15,7 +15,7 @@ def _phase_load_results(itemsets_csv: str, rules_csv: str):
 
 def _phase_plot_itemset_support(itemsets: pd.DataFrame, output_dir: Path):
     print("[arm summary] Plotting itemset support distribution")
-    plt.figure(figsize=(10, 4))
+    plt.figure(figsize=(6, 4))
     sns.histplot(itemsets["support"], bins=40)
     plt.title("Distribution of Itemset Supports")
     plt.xlabel("Support")
@@ -63,7 +63,7 @@ def _phase_simplify_rules(rules: pd.DataFrame, output_dir: Path):
 
 
 def _phase_find_interesting_rules(rules: pd.DataFrame, output_dir: Path,
-                                  lift_thresh=1.2, conf_thresh=MIN_CONFIDENCE, supp_thresh=MIN_SUPPORT):
+                                  lift_thresh=LIFT, conf_thresh=MIN_CONFIDENCE, supp_thresh=MIN_SUPPORT):
     print("[arm summary] Selecting interesting rules using thresholds")
     interesting = rules[
         (rules["lift"] > lift_thresh) &
@@ -97,7 +97,7 @@ def summarize_arm_results(itemsets_csv: str, rules_csv: str, output_dir: Path):
     print(f"\n[arm summary] Wrote simplified rules to: {simple_path}")
 
     interesting_path, interesting = _phase_find_interesting_rules(rules, output_dir)
-    print(f"\n[arm summary] Interesting strong rules (lift>1.2, conf>{MIN_CONFIDENCE}, support>{MIN_SUPPORT}):")
+    print(f"\n[arm summary] Interesting strong rules (lift>{LIFT}, conf>{MIN_CONFIDENCE}, support>{MIN_SUPPORT}):")
     if interesting.empty:
         print("  None found.")
     else:

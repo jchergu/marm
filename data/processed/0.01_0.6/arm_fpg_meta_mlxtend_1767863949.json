@@ -1,0 +1,12 @@
+{
+  "n_transactions": 83479,
+  "n_items": 45,
+  "min_support": 0.01,
+  "min_confidence": 0.6,
+  "n_frequent_itemsets": 22350,
+  "n_rules": 18055,
+  "freq_path": "/home/joppone/tek/py/marm/data/processed/0.01_0.6/arm_frequent_itemsets_mlxtend_10_1767863949.csv",
+  "rules_path": "/home/joppone/tek/py/marm/data/processed/0.01_0.6/arm_association_rules_mlxtend_600_1767863949.csv",
+  "generated_at": "2026-01-08 12:17:52",
+  "duration_seconds": 77.25229740142822
+}

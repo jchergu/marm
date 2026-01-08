@@ -7,7 +7,7 @@ from src.fpg import apply_fpgrowth
 from src.arm_summary import summarize_arm_results
 from pathlib import Path
 
-from src.config import MIN_SUPPORT, MIN_CONFIDENCE
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH
 
 def main():
 
@@ -29,26 +29,26 @@ def main():
     )
 
     # create ARM-ready datasets from the processed_df (before scaling)
-    data_dir = Path(__file__).resolve().parent / "data" / "processed"
-    onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=data_dir)
+    onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=OUT_PATH)
 
     print(f"[main] ARM one-hot shape: {onehot_df.shape}")
     if paths:
         print(f"[main] Wrote one-hot CSV: {paths.get('onehot_csv')}")
-        print(f"[main] Wrote transactions TXT: {paths.get('transactions_txt')}")
+        print(f"[main] Wrote transactions TXT: {paths.get('transactions_txt')}\n")
 
     # run FP-growth on the generated transactions and persist results
     try:
-        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=data_dir, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
-        print(f"[main] FP-growth results written:")
+        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=OUT_PATH, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
+        print(f"\n[main] FP-growth results written:")
         print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
         print(f"  rules: {fpg_paths.get('rules')}")
         print(f"  meta: {fpg_paths.get('meta')}")
     except Exception as e:
         print(f"[main] FP-growth failed: {e}")   
 
-    img_dir = data_dir / "images"
-
+    img_dir = OUT_PATH / "images"
+    
+    # plots and txt rules summary
     summarize_arm_results(
         itemsets_csv=fpg_paths["frequent_itemsets"],
         rules_csv=fpg_paths["rules"],

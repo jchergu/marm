@@ -118,6 +118,7 @@ def _check_matrix_size(df_bool: pd.DataFrame) -> None:
 
 def _mine_frequent_itemsets(df_bool: pd.DataFrame, min_support: float) -> pd.DataFrame:
     """Mine frequent itemsets using FP-Growth"""
+    print("[fpg] mining frequent itemsets...")
     freq = fpgrowth(df_bool, min_support=min_support, use_colnames=True).copy()
     
     if not freq.empty:
@@ -135,6 +136,7 @@ def _generate_association_rules(freq: pd.DataFrame, min_confidence: float) -> pd
         return pd.DataFrame()
     
     try:
+        print("[fpg] generating association rules...")
         rules = association_rules(freq, metric="confidence", min_threshold=min_confidence).copy()
         rules["antecedents_str"] = rules["antecedents"].apply(
             lambda s: "|".join(sorted(list(s)))

@@ -5,9 +5,10 @@ from src.header_print import print_header
 from src.discretization import create_arm_dataset
 from src.fpg import apply_fpgrowth
 from src.arm_summary import summarize_arm_results
+from src.clustering import run_clustering
 from pathlib import Path
 
-from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH, OUT_ARM, OUT_CLUS
 
 def main():
 
@@ -29,7 +30,8 @@ def main():
     )
 
     # create ARM-ready datasets from the processed_df (before scaling)
-    onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=OUT_PATH)
+    print("[main] creating arm dataset...")
+    onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=OUT_ARM)
 
     print(f"[main] ARM one-hot shape: {onehot_df.shape}")
     if paths:
@@ -38,7 +40,7 @@ def main():
 
     # run FP-growth on the generated transactions and persist results
     try:
-        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=OUT_PATH, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
+        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=OUT_ARM, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
         print(f"\n[main] FP-growth results written:")
         print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
         print(f"  rules: {fpg_paths.get('rules')}")
@@ -46,14 +48,16 @@ def main():
     except Exception as e:
         print(f"[main] FP-growth failed: {e}")   
 
-    img_dir = OUT_PATH / "images"
+    img_dir = OUT_ARM / "images"
     
     # plots and txt rules summary
     summarize_arm_results(
         itemsets_csv=fpg_paths["frequent_itemsets"],
         rules_csv=fpg_paths["rules"],
         output_dir=img_dir,
-    ) 
+    )
+
+    run_clustering(res["X"])
 
 if __name__ == "__main__":
     main()

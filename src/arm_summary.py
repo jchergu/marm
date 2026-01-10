@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-from src.config import MIN_SUPPORT, MIN_CONFIDENCE, LIFT
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE, LIFT, LEVERAGE
 
 def _phase_load_results(itemsets_csv: str, rules_csv: str):
-    print("\n[ARM SUMMARY] Loading FP-Growth results...")
+    print("\n[arm summary] Loading FP-Growth results...")
     itemsets = pd.read_csv(itemsets_csv)
     rules = pd.read_csv(rules_csv)
-    print(f"[ARM SUMMARY] Loaded {len(itemsets)} itemsets and {len(rules)} rules.")
+    print(f"[arm summary] Loaded {len(itemsets)} itemsets and {len(rules)} rules.")
     return itemsets, rules
 
 
@@ -28,17 +28,17 @@ def _phase_plot_itemset_support(itemsets: pd.DataFrame, output_dir: Path):
 
 
 def _phase_plot_rules_scatter(rules: pd.DataFrame, output_dir: Path):
-    print("[arm summary] Plotting rules support vs confidence")
+    print("\n[arm summary] Plotting rules support vs confidence")
     plt.figure(figsize=(6, 5))
     sns.scatterplot(
         data=rules,
         x="support",
         y="confidence",
-        hue="lift",
+        hue="leverage",
         palette="viridis",
         alpha=0.7,
     )
-    plt.title("Rules: Support vs Confidence (color = lift)")
+    plt.title("Rules: Support vs Confidence")
     plt.tight_layout()
     out = output_dir / "rules_support_confidence.png"
     plt.savefig(out)
@@ -50,8 +50,11 @@ def _phase_simplify_rules(rules: pd.DataFrame, output_dir: Path):
     print("[arm summary] Simplifying rules to human-readable text")
 
     def simplify_rule(row):
-        return f"{row['antecedents_str']}  →  {row['consequents_str']} " \
-               f"(conf={row['confidence']:.2f}, lift={row['lift']:.2f})"
+        return (
+            f"{row['antecedents_str']} → {row['consequents_str']} "
+            f"(supp={row['support']:.3f}, conf={row['confidence']:.2f}, "
+            f"lift={row['lift']:.2f}, lev={row['leverage']:.4f})"
+        )
 
     rules = rules.copy()
     rules["simple_rule"] = rules.apply(simplify_rule, axis=1)
@@ -63,12 +66,13 @@ def _phase_simplify_rules(rules: pd.DataFrame, output_dir: Path):
 
 
 def _phase_find_interesting_rules(rules: pd.DataFrame, output_dir: Path,
-                                  lift_thresh=LIFT, conf_thresh=MIN_CONFIDENCE, supp_thresh=MIN_SUPPORT):
+                                  lift_thresh=LIFT, conf_thresh=MIN_CONFIDENCE, supp_thresh=MIN_SUPPORT, leverage_thresh=LEVERAGE):
     print("[arm summary] Selecting interesting rules using thresholds")
     interesting = rules[
         (rules["lift"] > lift_thresh) &
         (rules["confidence"] > conf_thresh) &
-        (rules["support"] > supp_thresh)
+        (rules["support"] > supp_thresh) &
+        (rules["leverage"] > leverage_thresh)
     ].sort_values("lift", ascending=False)
     out_path = output_dir / "top_interesting_rules.csv"
     interesting.to_csv(out_path, index=False)

@@ -7,6 +7,9 @@ from src.fpg import apply_fpgrowth
 from src.arm_summary import summarize_arm_results
 from src.clustering import run_clustering
 from pathlib import Path
+from src.prepare_unsupervised import prepare_unsupervised_data
+from src.randomforest import run_random_forest
+
 
 from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH, OUT_ARM, OUT_CLUS
 
@@ -18,6 +21,12 @@ def main():
 
     check_consistency(df)
 
+    # saves dataset for random forest with genre column (dropped by preprocessing)
+    prep_unsup = prepare_unsupervised_data(df, target_col="track_genre")
+    df_raw = prep_unsup["X_raw"]
+    y_genre = prep_unsup["y"]
+
+    # preprocessing
     res = preprocess(
         df,
         remove_duplicates=True,
@@ -29,35 +38,24 @@ def main():
         random_state=42,
     )
 
+    # association rule mining
+
     # create ARM-ready datasets from the processed_df (before scaling)
-    print("[main] creating arm dataset...")
     onehot_df, transactions, paths = create_arm_dataset(res["processed_df"], numeric_bins=4, output_dir=OUT_ARM)
-
-    print(f"[main] ARM one-hot shape: {onehot_df.shape}")
-    if paths:
-        print(f"[main] Wrote one-hot CSV: {paths.get('onehot_csv')}")
-        print(f"[main] Wrote transactions TXT: {paths.get('transactions_txt')}\n")
-
     # run FP-growth on the generated transactions and persist results
-    try:
-        fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=OUT_ARM, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
-        print(f"\n[main] FP-growth results written:")
-        print(f"  frequent itemsets: {fpg_paths.get('frequent_itemsets')}")
-        print(f"  rules: {fpg_paths.get('rules')}")
-        print(f"  meta: {fpg_paths.get('meta')}")
-    except Exception as e:
-        print(f"[main] FP-growth failed: {e}")   
-
-    img_dir = OUT_ARM / "images"
-    
+    fpg_paths = apply_fpgrowth(transactions=transactions, output_dir=OUT_ARM, min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE)
     # plots and txt rules summary
-    summarize_arm_results(
-        itemsets_csv=fpg_paths["frequent_itemsets"],
-        rules_csv=fpg_paths["rules"],
-        output_dir=img_dir,
-    )
+    summarize_arm_results(itemsets_csv=fpg_paths["frequent_itemsets"],rules_csv=fpg_paths["rules"],output_dir=OUT_ARM / "images")
 
-    run_clustering(res["X"])
+    # clustering
+
+    #run_clustering(res["X"])
+
+    # random forest (classification)
+    
+    y_genre = y_genre.loc[res["X"].index]
+    run_random_forest(X=res["X"], y=y_genre)
+
 
 if __name__ == "__main__":
     main()

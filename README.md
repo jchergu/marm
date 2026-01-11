@@ -1,6 +1,6 @@
 # MARM: Music-understanding Association Rule Mining
 
-This project takes a song-features dataset and extracts with Machine Learning algorithms music rules.  
+This project applies Association Rule Mining techniques to a dataset of song audio features in order to discover interpretable and meaningful musical patterns.
 
 Examples of rules computed:
 ```
@@ -8,8 +8,9 @@ Energic song => Major key
 Low energy => Low danceability
 ```
 
-Results can be used for music recommendation systems, music analysis, music generation, and are available in the data/processed folder, ready to use.
+The discovered rules can be exploited in music recommendation systems, music analysis tasks, and procedural music generation. All extracted patterns and results are available in the data/processed folder.
 
+In addition to Association Rule Mining, unsupervised and supervised learning techniques were explored to further analyze the structure of the dataset. Clustering algorithms (K-Means and DBSCAN) revealed two dominant groups of songs: energetic and happy tracks versus slower and sad ones. Moreover, a Random Forest classifier was trained to evaluate how well song genres can be predicted from audio features, assessing the amount of discriminative information contained in the data.
 
 ## How to run
 

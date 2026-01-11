@@ -144,6 +144,8 @@ def create_arm_dataset(df, *, numeric_bins=2, output_dir=None,
     df = df.copy()
     output_dir = Path(output_dir) if output_dir is not None else None
 
+    print("\n[create_arm_dataset] starting...")
+
     num_cols, cat_cols = _phase_get_columns(df)
 
     parts = []

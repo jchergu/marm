@@ -11,7 +11,7 @@ from src.prepare_unsupervised import prepare_unsupervised_data
 from src.randomforest import run_random_forest
 
 
-from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH, OUT_ARM, OUT_CLUS
+from src.config import MIN_SUPPORT, MIN_CONFIDENCE, OUT_PATH, OUT_ARM
 
 def main():
 
@@ -49,7 +49,7 @@ def main():
 
     # clustering
 
-    #run_clustering(res["X"])
+    run_clustering(res["X"])
 
     # random forest (classification)
     
